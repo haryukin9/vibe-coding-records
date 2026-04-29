@@ -23,4 +23,4 @@ vibe-coding-records/
 ## 画像配信URL
 
 `images/png/` 配下のファイルは GitHub Pages で公開されます。
-URL例: `https://haruhito0526-2.github.io/vibe-coding-records/images/png/example.png`
+URL例: `https://haryukin9.github.io/vibe-coding-records/images/png/example.png`

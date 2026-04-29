@@ -44,7 +44,7 @@ import markdown as md_lib
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ARTICLES_DIR = ROOT / "articles"
 DEFAULT_OUTPUT_DIR = ROOT / "wxr"
-PAGES_BASE_URL = "https://haruhito0526-2.github.io/vibe-coding-records"
+PAGES_BASE_URL = "https://haryukin9.github.io/vibe-coding-records"
 SITE_TITLE = "vibe-coding-records"
 
 MARKDOWN_EXTENSIONS = ["fenced_code", "tables", "nl2br", "sane_lists"]

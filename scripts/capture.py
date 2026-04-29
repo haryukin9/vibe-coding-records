@@ -40,7 +40,7 @@ from urllib.parse import urlparse
 
 from playwright.async_api import async_playwright
 
-DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parent.parent / "images" / "png"
+DEFAULT_OUTPUT_DIR = Path("J:/マイドライブ/AI_support_Projects/playwright-captures")
 
 
 def slugify_url(url: str) -> str:

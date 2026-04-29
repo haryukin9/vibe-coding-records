@@ -38,7 +38,7 @@ from playwright.async_api import async_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_SVG_DIR = ROOT / "images" / "svg"
-DEFAULT_OUTPUT_DIR = ROOT / "images" / "png"
+DEFAULT_OUTPUT_DIR = Path("J:/マイドライブ/AI_support_Projects/svg-pngs")
 
 
 def build_html(svg_text: str, transparent: bool, padding: int) -> str:

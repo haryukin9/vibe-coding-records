@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <!-- ヘッダー -->
+  <text x="80" y="80" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="4" dominant-baseline="hanging">VIBE-CODING TIMELINE</text>
+  <text x="80" y="112" font-weight="700" font-size="48" dominant-baseline="hanging">
+    <tspan fill="#1f2937">半年で起きたこと、</tspan><tspan fill="#3a7ba8">ざっくりタイムライン</tspan>
+  </text>
+  <text x="1840" y="80" text-anchor="end" fill="#6b7280" font-weight="500" font-size="22" dominant-baseline="hanging">2025.11 - 2026.04</text>
+  <text x="1840" y="116" text-anchor="end" fill="#3a7ba8" font-weight="700" font-size="32" letter-spacing="1.4" dominant-baseline="hanging">14 TOOLS BUILT</text>
+
+  <!-- カード1 : 2025.11 きっかけ -->
+  <g>
+    <rect x="80" y="280" width="320" height="640" rx="12" fill="#3a7ba8" opacity="0.10" filter="url(#softShadow)"/>
+    <rect x="80" y="274" width="320" height="640" rx="12" fill="#ffffff" stroke="#ecf2f7" stroke-width="1"/>
+    <rect x="195" y="324" width="90" height="90" rx="14" fill="#eaf4fb"/>
+    <text x="240" y="380" text-anchor="middle" font-size="44" fill="#3a7ba8" font-weight="700" dominant-baseline="central">★</text>
+    <text x="240" y="442" text-anchor="middle" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="1.2" dominant-baseline="hanging">2025.11</text>
+    <text x="240" y="490" text-anchor="middle" fill="#1f2937" font-weight="700" font-size="30" dominant-baseline="hanging">きっかけと試作</text>
+    <rect x="222" y="552" width="36" height="2" rx="1" fill="#a8d4ee"/>
+    <text x="240" y="580" text-anchor="middle" fill="#4b5563" font-weight="400" font-size="20" dominant-baseline="hanging">
+      <tspan x="240" dy="0">Geminiに「LP作って」</tspan>
+      <tspan x="240" dy="32">スクレイピングや</tspan>
+      <tspan x="240" dy="32">小さな業務システムを試作</tspan>
+      <tspan x="240" dy="48" font-weight="600" fill="#3a7ba8">「これ、行けそうだな」</tspan>
+    </text>
+    <circle cx="240" cy="274" r="30" fill="#a8d4ee"/>
+    <text x="240" y="274" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-weight="700" font-size="30">1</text>
+  </g>
+
+  <!-- カード2 : 2025.11後半-12.15 サイト作り直し -->
+  <g>
+    <rect x="440" y="280" width="320" height="640" rx="12" fill="#3a7ba8" opacity="0.10" filter="url(#softShadow)"/>
+    <rect x="440" y="274" width="320" height="640" rx="12" fill="#ffffff" stroke="#ecf2f7" stroke-width="1"/>
+    <rect x="555" y="324" width="90" height="90" rx="14" fill="#eaf4fb"/>
+    <g transform="translate(580, 350)" stroke="#3a7ba8" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <rect x="0" y="0" width="40" height="32" rx="3"/>
+      <line x1="0" y1="10" x2="40" y2="10"/>
+      <circle cx="6" cy="5" r="1.5" fill="#3a7ba8"/>
+      <circle cx="12" cy="5" r="1.5" fill="#3a7ba8"/>
+    </g>
+    <text x="600" y="442" text-anchor="middle" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="1.2" dominant-baseline="hanging">11後半 - 12.15</text>
+    <text x="600" y="490" text-anchor="middle" fill="#1f2937" font-weight="700" font-size="30" dominant-baseline="hanging">サイト全面作り直し</text>
+    <rect x="582" y="552" width="36" height="2" rx="1" fill="#a8d4ee"/>
+    <text x="600" y="580" text-anchor="middle" fill="#4b5563" font-weight="400" font-size="20" dominant-baseline="hanging">
+      <tspan x="600" dy="0">約250ページを3週間で</tspan>
+      <tspan x="600" dy="32">テーマ自作・コンテンツ</tspan>
+      <tspan x="600" dy="32">200件変換・DB移行</tspan>
+      <tspan x="600" dy="48" font-weight="600" fill="#3a7ba8">毎日10時間AIと対話</tspan>
+    </text>
+    <circle cx="600" cy="274" r="30" fill="#a8d4ee"/>
+    <text x="600" y="274" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-weight="700" font-size="30">2</text>
+  </g>
+
+  <!-- カード3 : 2026.1-2 業務インフラ -->
+  <g>
+    <rect x="800" y="280" width="320" height="640" rx="12" fill="#3a7ba8" opacity="0.10" filter="url(#softShadow)"/>
+    <rect x="800" y="274" width="320" height="640" rx="12" fill="#ffffff" stroke="#ecf2f7" stroke-width="1"/>
+    <rect x="915" y="324" width="90" height="90" rx="14" fill="#eaf4fb"/>
+    <g transform="translate(940, 350)" stroke="#3a7ba8" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <ellipse cx="20" cy="6" rx="18" ry="4"/>
+      <path d="M2 6 L2 28 a18 4 0 0 0 36 0 L38 6"/>
+      <path d="M2 16 a18 4 0 0 0 36 0"/>
+    </g>
+    <text x="960" y="442" text-anchor="middle" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="1.2" dominant-baseline="hanging">2026.1 - 2</text>
+    <text x="960" y="490" text-anchor="middle" fill="#1f2937" font-weight="700" font-size="30" dominant-baseline="hanging">業務インフラ見直し</text>
+    <rect x="942" y="552" width="36" height="2" rx="1" fill="#a8d4ee"/>
+    <text x="960" y="580" text-anchor="middle" fill="#4b5563" font-weight="400" font-size="20" dominant-baseline="hanging">
+      <tspan x="960" dy="0">フォーム移行＆</tspan>
+      <tspan x="960" dy="32">メルマガ登録自動化</tspan>
+      <tspan x="960" dy="32">メール・サーバー集約</tspan>
+      <tspan x="960" dy="48" font-weight="600" fill="#3a7ba8">線表もAIに引かせる</tspan>
+    </text>
+    <circle cx="960" cy="274" r="30" fill="#a8d4ee"/>
+    <text x="960" y="274" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-weight="700" font-size="30">3</text>
+  </g>
+
+  <!-- カード4 : 2026.3 Claude Code移行 -->
+  <g>
+    <rect x="1160" y="280" width="320" height="640" rx="12" fill="#3a7ba8" opacity="0.10" filter="url(#softShadow)"/>
+    <rect x="1160" y="274" width="320" height="640" rx="12" fill="#ffffff" stroke="#ecf2f7" stroke-width="1"/>
+    <rect x="1275" y="324" width="90" height="90" rx="14" fill="#eaf4fb"/>
+    <g transform="translate(1300, 350)" stroke="#3a7ba8" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="14,8 4,18 14,28"/>
+      <polyline points="26,8 36,18 26,28"/>
+    </g>
+    <text x="1320" y="442" text-anchor="middle" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="1.2" dominant-baseline="hanging">2026.3</text>
+    <text x="1320" y="490" text-anchor="middle" fill="#1f2937" font-weight="700" font-size="30" dominant-baseline="hanging">Claude Code移行</text>
+    <rect x="1302" y="552" width="36" height="2" rx="1" fill="#a8d4ee"/>
+    <text x="1320" y="580" text-anchor="middle" fill="#4b5563" font-weight="400" font-size="20" dominant-baseline="hanging">
+      <tspan x="1320" dy="0">メインAIをGeminiから</tspan>
+      <tspan x="1320" dy="32">Claude Codeに切替</tspan>
+      <tspan x="1320" dy="48" font-weight="600" fill="#3a7ba8">きっかけは別の記事で</tspan>
+    </text>
+    <circle cx="1320" cy="274" r="30" fill="#a8d4ee"/>
+    <text x="1320" y="274" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-weight="700" font-size="30">4</text>
+  </g>
+
+  <!-- カード5 : 2026.4 いまここ（アクセントオレンジ） -->
+  <g>
+    <rect x="1520" y="280" width="320" height="640" rx="12" fill="#f59e0b" opacity="0.12" filter="url(#softShadow)"/>
+    <rect x="1520" y="274" width="320" height="640" rx="12" fill="#ffffff" stroke="#fde6c1" stroke-width="2"/>
+    <rect x="1635" y="324" width="90" height="90" rx="14" fill="#fef3e2"/>
+    <text x="1680" y="380" text-anchor="middle" font-size="44" fill="#f59e0b" font-weight="700" dominant-baseline="central">●</text>
+    <text x="1680" y="442" text-anchor="middle" fill="#f59e0b" font-weight="700" font-size="22" letter-spacing="1.2" dominant-baseline="hanging">2026.4 / NOW</text>
+    <text x="1680" y="490" text-anchor="middle" fill="#1f2937" font-weight="700" font-size="30" dominant-baseline="hanging">いまここ</text>
+    <rect x="1662" y="552" width="36" height="2" rx="1" fill="#f59e0b"/>
+    <text x="1680" y="580" text-anchor="middle" fill="#4b5563" font-weight="400" font-size="20" dominant-baseline="hanging">
+      <tspan x="1680" dy="0">業務ツール14個が稼働</tspan>
+      <tspan x="1680" dy="32">note連載パイプライン完成</tspan>
+      <tspan x="1680" dy="32">メルマガシステムを</tspan>
+      <tspan x="1680" dy="32">自前構築中（進行中）</tspan>
+    </text>
+    <circle cx="1680" cy="274" r="30" fill="#f59e0b"/>
+    <text x="1680" y="274" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-weight="700" font-size="30">5</text>
+  </g>
+
+  <!-- 矢印 1->2 -->
+  <g stroke="#a8d4ee" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <line x1="404" y1="594" x2="436" y2="594"/>
+    <polyline points="430,587 442,594 430,601"/>
+  </g>
+  <!-- 矢印 2->3 -->
+  <g stroke="#a8d4ee" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <line x1="764" y1="594" x2="796" y2="594"/>
+    <polyline points="790,587 802,594 790,601"/>
+  </g>
+  <!-- 矢印 3->4 -->
+  <g stroke="#a8d4ee" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <line x1="1124" y1="594" x2="1156" y2="594"/>
+    <polyline points="1150,587 1162,594 1150,601"/>
+  </g>
+  <!-- 矢印 4->5 (オレンジで現在地強調) -->
+  <g stroke="#f59e0b" stroke-width="3" stroke-linecap="round" fill="none">
+    <line x1="1484" y1="594" x2="1516" y2="594"/>
+    <polyline points="1510,587 1522,594 1510,601"/>
+  </g>
+
+  <!-- フッター：次回予告 -->
+  <g>
+    <rect x="700" y="970" width="520" height="56" rx="28" fill="#ffffff" stroke="#d8e7f2" stroke-width="1.5"/>
+    <circle cx="730" cy="998" r="5" fill="#5da8d4"/>
+    <text x="752" y="998" dominant-baseline="central" fill="#3a7ba8" font-weight="600" font-size="22" letter-spacing="0.8">次回はカード②「3週間の作り直し」を3話で</text>
+  </g>
+</svg>
