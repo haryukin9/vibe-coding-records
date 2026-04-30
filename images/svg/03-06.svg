@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="softShadow36" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <!-- ヘッダー -->
+  <text x="80" y="80" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="4" dominant-baseline="hanging">WP RENEWAL: BEFORE / AFTER</text>
+  <text x="80" y="112" font-weight="700" font-size="44" dominant-baseline="hanging">
+    <tspan fill="#1f2937">21日間で、</tspan><tspan fill="#3a7ba8">外注400万のリニューアル</tspan><tspan fill="#1f2937">を、</tspan><tspan fill="#f59e0b">外注ゼロ</tspan><tspan fill="#1f2937">で完了した</tspan>
+  </text>
+  <text x="1840" y="80" text-anchor="end" fill="#6b7280" font-weight="500" font-size="22" dominant-baseline="hanging">VOL.2 — WP RENEWAL</text>
+  <text x="1840" y="116" text-anchor="end" fill="#f59e0b" font-weight="700" font-size="32" letter-spacing="1.4" dominant-baseline="hanging">DONE</text>
+
+  <!-- BEFOREカード -->
+  <g>
+    <rect x="80" y="240" width="800" height="660" rx="14" fill="#3a7ba8" opacity="0.10" filter="url(#softShadow36)"/>
+    <rect x="80" y="234" width="800" height="660" rx="14" fill="#ffffff" stroke="#ecf2f7" stroke-width="1.5"/>
+
+    <!-- バッジ -->
+    <rect x="110" y="270" width="160" height="36" rx="18" fill="#ecf2f7"/>
+    <text x="190" y="288" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="18" letter-spacing="1.5">BEFORE</text>
+
+    <!-- ラベル -->
+    <text x="110" y="340" fill="#1f2937" font-weight="700" font-size="36" dominant-baseline="hanging">壊れた朝、12月9日</text>
+    <text x="110" y="394" fill="#6b7280" font-weight="500" font-size="22" dominant-baseline="hanging">5年放置していた会社サイトが、ある日突然壊れた</text>
+
+    <!-- アイコン: 壊れたページ -->
+    <g transform="translate(110, 470)">
+      <rect x="0" y="0" width="160" height="200" rx="10" fill="#eaf4fb" stroke="#a8d4ee" stroke-width="2"/>
+      <line x1="20" y1="40" x2="140" y2="40" stroke="#a8d4ee" stroke-width="3" stroke-linecap="round"/>
+      <line x1="20" y1="68" x2="140" y2="68" stroke="#a8d4ee" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 4"/>
+      <line x1="20" y1="96" x2="120" y2="96" stroke="#a8d4ee" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 4"/>
+      <line x1="20" y1="124" x2="100" y2="124" stroke="#a8d4ee" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 4"/>
+      <line x1="20" y1="152" x2="140" y2="152" stroke="#a8d4ee" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 4"/>
+      <!-- × オーバーレイ -->
+      <line x1="30" y1="20" x2="130" y2="180" stroke="#b8413c" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+      <line x1="130" y1="20" x2="30" y2="180" stroke="#b8413c" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+    </g>
+
+    <!-- 数字: ¥400万 -->
+    <g transform="translate(310, 470)">
+      <text x="0" y="0" fill="#5da8d4" font-weight="600" font-size="18" letter-spacing="1.5" dominant-baseline="hanging">外注見積もり</text>
+      <text x="0" y="40" fill="#1f2937" font-weight="700" font-size="64" dominant-baseline="hanging">¥400万〜</text>
+      <text x="0" y="124" fill="#6b7280" font-weight="500" font-size="18" dominant-baseline="hanging">最低3〜4ヶ月</text>
+      <text x="0" y="156" fill="#6b7280" font-weight="500" font-size="18" dominant-baseline="hanging">+ 壊れたぶんの調査コスト</text>
+    </g>
+
+    <!-- リスト -->
+    <rect x="110" y="710" width="740" height="170" rx="10" fill="#ecf2f7"/>
+    <g transform="translate(140, 740)">
+      <g><circle cx="6" cy="12" r="5" fill="#5da8d4"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">5年放置</text></g>
+      <g transform="translate(220, 0)"><circle cx="6" cy="12" r="5" fill="#5da8d4"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">担当者なし</text></g>
+      <g transform="translate(440, 0)"><circle cx="6" cy="12" r="5" fill="#5da8d4"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">PHP古い</text></g>
+      <g transform="translate(0, 50)"><circle cx="6" cy="12" r="5" fill="#5da8d4"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">テーマ更新できない</text></g>
+      <g transform="translate(220, 50)"><circle cx="6" cy="12" r="5" fill="#5da8d4"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">フォーム動かない</text></g>
+      <g transform="translate(440, 50)"><circle cx="6" cy="12" r="5" fill="#5da8d4"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">ショートコード露出</text></g>
+      <g transform="translate(0, 100)"><circle cx="6" cy="12" r="5" fill="#5da8d4"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">サイトネットワーク混在</text></g>
+      <g transform="translate(280, 100)"><circle cx="6" cy="12" r="5" fill="#5da8d4"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">外注の壁</text></g>
+    </g>
+  </g>
+
+  <!-- 中央矢印 -->
+  <g>
+    <circle cx="960" cy="600" r="80" fill="#ffffff" stroke="#f59e0b" stroke-width="3"/>
+    <text x="960" y="582" text-anchor="middle" dominant-baseline="central" fill="#f59e0b" font-weight="700" font-size="24" letter-spacing="1.4">21 DAYS</text>
+    <text x="960" y="615" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="16">AIと一緒に</text>
+
+    <!-- 両側矢印 -->
+    <g stroke="#f59e0b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="900" y1="600" x2="884" y2="600"/>
+      <polyline points="894,594 884,600 894,606"/>
+      <line x1="1020" y1="600" x2="1036" y2="600"/>
+      <polyline points="1026,594 1036,600 1026,606"/>
+    </g>
+  </g>
+
+  <!-- AFTERカード -->
+  <g>
+    <rect x="1040" y="240" width="800" height="660" rx="14" fill="#f59e0b" opacity="0.12" filter="url(#softShadow36)"/>
+    <rect x="1040" y="234" width="800" height="660" rx="14" fill="#ffffff" stroke="#fde6c1" stroke-width="2"/>
+
+    <!-- バッジ -->
+    <rect x="1070" y="270" width="160" height="36" rx="18" fill="#fef3e2"/>
+    <text x="1150" y="288" text-anchor="middle" dominant-baseline="central" fill="#f59e0b" font-weight="700" font-size="18" letter-spacing="1.5">AFTER</text>
+
+    <!-- ラベル -->
+    <text x="1070" y="340" fill="#1f2937" font-weight="700" font-size="36" dominant-baseline="hanging">公開できた朝</text>
+    <text x="1070" y="394" fill="#6b7280" font-weight="500" font-size="22" dominant-baseline="hanging">3週間で、自分で作り直した</text>
+
+    <!-- アイコン: 動くページ -->
+    <g transform="translate(1070, 470)">
+      <rect x="0" y="0" width="160" height="200" rx="10" fill="#fef3e2" stroke="#f59e0b" stroke-width="2"/>
+      <line x1="20" y1="40" x2="140" y2="40" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+      <line x1="20" y1="68" x2="140" y2="68" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+      <line x1="20" y1="96" x2="120" y2="96" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+      <line x1="20" y1="124" x2="140" y2="124" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+      <line x1="20" y1="152" x2="100" y2="152" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+      <!-- ✓ オーバーレイ -->
+      <polyline points="40,90 70,130 130,60" fill="none" stroke="#2f8a4e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+    </g>
+
+    <!-- 数字: ¥0 -->
+    <g transform="translate(1270, 470)">
+      <text x="0" y="0" fill="#f59e0b" font-weight="600" font-size="18" letter-spacing="1.5" dominant-baseline="hanging">外注費</text>
+      <text x="0" y="40" fill="#1f2937" font-weight="700" font-size="64" dominant-baseline="hanging">¥0</text>
+      <text x="0" y="124" fill="#6b7280" font-weight="500" font-size="18" dominant-baseline="hanging">3週間で完了</text>
+      <text x="0" y="156" fill="#6b7280" font-weight="500" font-size="18" dominant-baseline="hanging">自分で更新できる状態に</text>
+    </g>
+
+    <!-- リスト -->
+    <rect x="1070" y="710" width="740" height="170" rx="10" fill="#fef3e2"/>
+    <g transform="translate(1100, 740)">
+      <g><circle cx="6" cy="12" r="5" fill="#f59e0b"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">テーマを自作</text></g>
+      <g transform="translate(220, 0)"><circle cx="6" cy="12" r="5" fill="#f59e0b"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">144件を引っ越し</text></g>
+      <g transform="translate(440, 0)"><circle cx="6" cy="12" r="5" fill="#f59e0b"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">フォーム稼働</text></g>
+      <g transform="translate(0, 50)"><circle cx="6" cy="12" r="5" fill="#f59e0b"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">変換ツール内製</text></g>
+      <g transform="translate(220, 50)"><circle cx="6" cy="12" r="5" fill="#f59e0b"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">画像URLを一括書換</text></g>
+      <g transform="translate(440, 50)"><circle cx="6" cy="12" r="5" fill="#f59e0b"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">本番公開</text></g>
+      <g transform="translate(0, 100)"><circle cx="6" cy="12" r="5" fill="#f59e0b"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">自分で更新できる</text></g>
+      <g transform="translate(280, 100)"><circle cx="6" cy="12" r="5" fill="#f59e0b"/><text x="22" y="12" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="18">外注ゼロで完了</text></g>
+    </g>
+  </g>
+
+  <!-- フッター -->
+  <g>
+    <rect x="380" y="970" width="1160" height="56" rx="28" fill="#ffffff" stroke="#fde6c1" stroke-width="1.5"/>
+    <circle cx="414" cy="998" r="6" fill="#f59e0b"/>
+    <text x="438" y="998" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="22" letter-spacing="0.8">コードを書かない非エンジニアが、AIと一緒に作り直した</text>
+  </g>
+</svg>
