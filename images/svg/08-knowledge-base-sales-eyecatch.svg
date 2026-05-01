@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 670" width="100%" preserveAspectRatio="xMidYMid meet">
+  <rect width="1280" height="670" fill="#f8f9fa"/>
+
+  <!-- 上部 -->
+  <text x="80" y="60" fill="#5da8d4" font-weight="600" font-size="18" letter-spacing="3" dominant-baseline="hanging">中小企業のひとりDX担当が、AIで会社をアップデートする</text>
+  <line x1="80" y1="98" x2="200" y2="98" stroke="#5da8d4" stroke-width="3"/>
+  <text x="1200" y="60" text-anchor="end" fill="#f59e0b" font-weight="700" font-size="22" letter-spacing="2" dominant-baseline="hanging">#08 — TOOLS ②</text>
+
+  <!-- メインタイトル -->
+  <text x="80" y="170" font-weight="700" font-size="48" dominant-baseline="hanging">
+    <tspan fill="#1f2937">会社の</tspan><tspan fill="#f59e0b">Web</tspan><tspan fill="#1f2937">を丸ごと</tspan>
+  </text>
+  <text x="80" y="234" font-weight="700" font-size="48" dominant-baseline="hanging">
+    <tspan fill="#1f2937">ナレッジベースにして、</tspan>
+  </text>
+  <text x="80" y="298" font-weight="700" font-size="48" dominant-baseline="hanging">
+    <tspan fill="#1f2937">営業の</tspan><tspan fill="#f59e0b">即レス</tspan><tspan fill="#1f2937">を</tspan>
+  </text>
+  <text x="80" y="362" font-weight="700" font-size="48" dominant-baseline="hanging">
+    <tspan fill="#1f2937">1分にした話。</tspan>
+  </text>
+
+  <!-- 右：DBハブ -->
+  <g transform="translate(960, 280)">
+    <!-- 過去実績（左上）：書類スタックアイコン -->
+    <g transform="translate(-185, -130)">
+      <rect x="-65" y="-22" width="130" height="44" rx="8" fill="#fff" stroke="#3a7ba8" stroke-width="2"/>
+      <g transform="translate(-42, 0)">
+        <rect x="-3" y="-4" width="14" height="16" rx="1" fill="#a8d4ee" stroke="#3a7ba8" stroke-width="1.5"/>
+        <rect x="-7" y="-8" width="14" height="16" rx="1" fill="#fff" stroke="#3a7ba8" stroke-width="1.5"/>
+        <line x1="-4" y1="-4" x2="4" y2="-4" stroke="#3a7ba8" stroke-width="1"/>
+        <line x1="-4" y1="-1" x2="4" y2="-1" stroke="#3a7ba8" stroke-width="1"/>
+        <line x1="-4" y1="2" x2="2" y2="2" stroke="#3a7ba8" stroke-width="1"/>
+      </g>
+      <text x="15" y="0" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="700" font-size="14">過去実績</text>
+    </g>
+
+    <!-- 施策の履歴（右上）：時計アイコン -->
+    <g transform="translate(185, -130)">
+      <rect x="-65" y="-22" width="130" height="44" rx="8" fill="#fff" stroke="#3a7ba8" stroke-width="2"/>
+      <g transform="translate(-42, 0)">
+        <circle cx="0" cy="0" r="9" fill="#fff" stroke="#3a7ba8" stroke-width="1.8"/>
+        <line x1="0" y1="0" x2="0" y2="-5" stroke="#3a7ba8" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="0" y1="0" x2="4" y2="0" stroke="#f59e0b" stroke-width="1.8" stroke-linecap="round"/>
+        <circle cx="0" cy="-9" r="1.2" fill="#3a7ba8"/>
+        <circle cx="9" cy="0" r="1.2" fill="#3a7ba8"/>
+        <circle cx="0" cy="9" r="1.2" fill="#3a7ba8"/>
+        <circle cx="-9" cy="0" r="1.2" fill="#3a7ba8"/>
+      </g>
+      <text x="15" y="0" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="700" font-size="14">施策の履歴</text>
+    </g>
+
+    <!-- 数字（左下）：バーチャートアイコン -->
+    <g transform="translate(-185, 130)">
+      <rect x="-65" y="-22" width="130" height="44" rx="8" fill="#fff" stroke="#3a7ba8" stroke-width="2"/>
+      <g transform="translate(-42, 2)">
+        <line x1="-9" y1="6" x2="9" y2="6" stroke="#3a7ba8" stroke-width="1.5"/>
+        <line x1="-9" y1="6" x2="-9" y2="-2" stroke="#3a7ba8" stroke-width="1.5"/>
+        <rect x="-7" y="0" width="3" height="6" fill="#a8d4ee"/>
+        <rect x="-3" y="-3" width="3" height="9" fill="#a8d4ee"/>
+        <rect x="1" y="-7" width="3" height="13" fill="#f59e0b"/>
+        <rect x="5" y="-2" width="3" height="8" fill="#a8d4ee"/>
+      </g>
+      <text x="15" y="0" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="700" font-size="14">数字</text>
+    </g>
+
+    <!-- お客さんの相談（右下）：吹き出しアイコン -->
+    <g transform="translate(185, 130)">
+      <rect x="-65" y="-22" width="130" height="44" rx="8" fill="#fff" stroke="#3a7ba8" stroke-width="2"/>
+      <g transform="translate(-44, -2)">
+        <rect x="-9" y="-5" width="18" height="11" rx="3" fill="#fef3e2" stroke="#3a7ba8" stroke-width="1.5"/>
+        <polygon points="-3,6 2,6 -2,10" fill="#fef3e2" stroke="#3a7ba8" stroke-width="1.5" stroke-linejoin="round"/>
+        <circle cx="-4" cy="0" r="1.2" fill="#3a7ba8"/>
+        <circle cx="0" cy="0" r="1.2" fill="#3a7ba8"/>
+        <circle cx="4" cy="0" r="1.2" fill="#3a7ba8"/>
+      </g>
+      <text x="18" y="0" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="700" font-size="13">お客さんの相談</text>
+    </g>
+
+    <!-- 4方向→中央DBへの矢印（DBから離した位置で先端） -->
+    <g stroke="#f59e0b" stroke-width="3.5" fill="none" stroke-linecap="round">
+      <line x1="-115" y1="-100" x2="-78" y2="-68"/>
+      <line x1="115" y1="-100" x2="78" y2="-68"/>
+      <line x1="-115" y1="100" x2="-78" y2="68"/>
+      <line x1="115" y1="100" x2="78" y2="68"/>
+    </g>
+    <g fill="#f59e0b">
+      <polygon points="-78,-68 -90,-72 -85,-82"/>
+      <polygon points="78,-68 85,-82 90,-72"/>
+      <polygon points="-78,68 -85,82 -90,72"/>
+      <polygon points="78,68 90,72 85,82"/>
+    </g>
+
+    <!-- 中央DB（円柱型／大きく） -->
+    <g>
+      <ellipse cx="0" cy="-44" rx="60" ry="16" fill="#fef3e2" stroke="#f59e0b" stroke-width="3"/>
+      <path d="M -60,-44 L -60,44 A 60,16 0 0 0 60,44 L 60,-44" fill="#fef3e2" stroke="#f59e0b" stroke-width="3"/>
+      <ellipse cx="0" cy="-18" rx="60" ry="16" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <ellipse cx="0" cy="8" rx="60" ry="16" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <text x="0" y="34" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="700" font-size="22" letter-spacing="2">DB</text>
+    </g>
+
+    <!-- DB→AIエージェント（離して描画） -->
+    <g transform="translate(0, 200)">
+      <path d="M 0,-130 L 0,-32" stroke="#3a7ba8" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <polygon points="0,-22 -7,-35 7,-35" fill="#3a7ba8"/>
+      <rect x="-65" y="-15" width="130" height="44" rx="11" fill="#a8d4ee" stroke="#3a7ba8" stroke-width="2.5"/>
+      <circle cx="-39" cy="7" r="4.5" fill="#3a7ba8"/>
+      <circle cx="-13" cy="7" r="4.5" fill="#3a7ba8"/>
+      <circle cx="13" cy="7" r="4.5" fill="#3a7ba8"/>
+      <circle cx="39" cy="7" r="4.5" fill="#f59e0b"/>
+      <text x="0" y="48" text-anchor="middle" fill="#1f2937" font-weight="700" font-size="16">AIが見る</text>
+    </g>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="240" y="568" width="800" height="52" rx="26" fill="#fff" stroke="#fde6c1" stroke-width="1.5"/>
+    <circle cx="272" cy="594" r="6" fill="#f59e0b"/>
+    <text x="294" y="594" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="20" letter-spacing="0.5">Webそのものが、営業支援ツールになる</text>
+  </g>
+</svg>
