@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="図表はAIにSVGで書かせる">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- 上部 -->
+  <text x="80" y="60" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="3" dominant-baseline="hanging">中小企業のひとりDX担当が、AIで会社をアップデートする</text>
+  <line x1="80" y1="105" x2="220" y2="105" stroke="#5da8d4" stroke-width="3"/>
+  <text x="1200" y="60" text-anchor="end" fill="#f59e0b" font-weight="700" font-size="26" letter-spacing="2" dominant-baseline="hanging">#10 — FIGURE</text>
+
+  <!-- メインタイトル -->
+  <text x="80" y="220" font-weight="700" font-size="86" dominant-baseline="hanging">
+    <tspan fill="#1f2937">図表はAIに</tspan>
+  </text>
+  <text x="80" y="330" font-weight="700" font-size="86" dominant-baseline="hanging">
+    <tspan fill="#f59e0b">SVG</tspan><tspan fill="#1f2937">で書かせる</tspan>
+  </text>
+
+  <!-- サブタイトル -->
+  <text x="80" y="460" fill="#3a7ba8" font-weight="600" font-size="26" letter-spacing="1">— 会社の資料の図表が同じトーンでそろった</text>
+
+  <!-- 右側：4発信物 → AI×SVG -->
+  <g transform="translate(800, 175)">
+    <text x="220" y="-18" text-anchor="middle" fill="#6b7280" font-size="18" font-weight="600">会社のあらゆる発信物の図表</text>
+
+    <!-- 記事 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="200" height="76" rx="12" fill="#fff" stroke="#5da8d4" stroke-width="2.5"/>
+      <g transform="translate(12, 24) scale(1.2)" fill="#5da8d4">
+        <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+      </g>
+      <text x="46" y="42" fill="#3a7ba8" font-weight="700" font-size="20" dominant-baseline="central">記事</text>
+      <line x1="46" y1="56" x2="180" y2="56" stroke="#a8d4ee" stroke-width="2"/>
+      <line x1="46" y1="66" x2="160" y2="66" stroke="#a8d4ee" stroke-width="2"/>
+    </g>
+    <!-- 営業資料 -->
+    <g transform="translate(220, 0)">
+      <rect x="0" y="0" width="200" height="76" rx="12" fill="#fff" stroke="#5da8d4" stroke-width="2.5"/>
+      <g transform="translate(12, 30) scale(1.2)" fill="#5da8d4">
+        <path d="M19 14V6c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zm-9-1c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm13-5v9c0 1.1-.9 2-2 2H4v-2h17V8h2z"/>
+      </g>
+      <text x="46" y="42" fill="#3a7ba8" font-weight="700" font-size="20" dominant-baseline="central">営業資料</text>
+      <line x1="46" y1="56" x2="180" y2="56" stroke="#a8d4ee" stroke-width="2"/>
+      <line x1="46" y1="66" x2="160" y2="66" stroke="#a8d4ee" stroke-width="2"/>
+    </g>
+    <!-- ホワイトペーパー -->
+    <g transform="translate(0, 96)">
+      <rect x="0" y="0" width="200" height="76" rx="12" fill="#fff" stroke="#5da8d4" stroke-width="2.5"/>
+      <g transform="translate(10, 26) scale(1.1)" fill="#5da8d4">
+        <path d="M11 21h-1l1-7H7.5c-.58 0-.57-.32-.38-.66.19-.34.05-.08.07-.12C8.48 10.94 10.42 7.54 13 3h1l-1 7h3.5c.49 0 .56.33.47.51l-.07.15C12.96 17.55 11 21 11 21z"/>
+      </g>
+      <text x="40" y="42" fill="#3a7ba8" font-weight="700" font-size="17" dominant-baseline="central">ホワイトペーパー</text>
+      <line x1="40" y1="56" x2="180" y2="56" stroke="#a8d4ee" stroke-width="2"/>
+      <line x1="40" y1="66" x2="160" y2="66" stroke="#a8d4ee" stroke-width="2"/>
+    </g>
+    <!-- note連載 -->
+    <g transform="translate(220, 96)">
+      <rect x="0" y="0" width="200" height="76" rx="12" fill="#fff" stroke="#5da8d4" stroke-width="2.5"/>
+      <g transform="translate(12, 24) scale(1.2)" fill="#5da8d4">
+        <path d="M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zM19 15l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25L19 15z"/>
+      </g>
+      <text x="46" y="42" fill="#3a7ba8" font-weight="700" font-size="20" dominant-baseline="central">note連載</text>
+      <line x1="46" y1="56" x2="180" y2="56" stroke="#a8d4ee" stroke-width="2"/>
+      <line x1="46" y1="66" x2="160" y2="66" stroke="#a8d4ee" stroke-width="2"/>
+    </g>
+
+    <!-- 矢印（下向き） -->
+    <g transform="translate(210, 200)">
+      <line x1="0" y1="0" x2="0" y2="30" stroke="#3a7ba8" stroke-width="4" stroke-linecap="round"/>
+      <polygon points="0,40 -10,28 10,28" fill="#3a7ba8"/>
+    </g>
+
+    <!-- 基盤：AI × SVG -->
+    <g transform="translate(0, 252)">
+      <rect x="0" y="0" width="420" height="88" rx="16" fill="#fef3e2" stroke="#f59e0b" stroke-width="3"/>
+      <text x="210" y="50" text-anchor="middle" fill="#f59e0b" font-weight="700" font-size="32" dominant-baseline="central">AI × SVG</text>
+    </g>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="200" y="608" width="880" height="60" rx="30" fill="#fff" stroke="#fde6c1" stroke-width="1.5"/>
+    <circle cx="240" cy="638" r="7" fill="#f59e0b"/>
+    <text x="266" y="638" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="22" letter-spacing="0.5">図表はぜんぶ、AIに「SVGで」書かせる</text>
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="図表が組めるとAIに渡せる仕事の幅が増える">
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <text x="80" y="80" fill="#1f2937" font-weight="700" font-size="62" dominant-baseline="hanging">図表が組めると、AIに渡せるものが一気に増える</text>
+  <line x1="80" y1="172" x2="280" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 上段：AI × SVG ハブ -->
+  <g transform="translate(560, 230)">
+    <rect x="0" y="0" width="800" height="200" rx="24" fill="#fef3e2" stroke="#f59e0b" stroke-width="4"/>
+
+    <rect x="0" y="0" width="800" height="120" rx="24" fill="#f59e0b"/>
+    <rect x="0" y="96" width="800" height="24" fill="#f59e0b"/>
+    <g transform="translate(190, 30) scale(2.5)" fill="#ffffff">
+      <path d="M11 21h-1l1-7H7.5c-.58 0-.57-.32-.38-.66.19-.34.05-.08.07-.12C8.48 10.94 10.42 7.54 13 3h1l-1 7h3.5c.49 0 .56.33.47.51l-.07.15C12.96 17.55 11 21 11 21z"/>
+    </g>
+    <text x="274" y="60" fill="#fff" font-weight="700" font-size="54" dominant-baseline="central">AI × SVG 基盤</text>
+
+    <text x="400" y="170" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="36">どんな図表もコードで書ける</text>
+  </g>
+
+  <!-- 矢印（中央から3方向） -->
+  <g transform="translate(960, 470)">
+    <!-- 左下 -->
+    <line x1="-280" y1="0" x2="-360" y2="80" stroke="#3a7ba8" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="-370,90 -360,60 -340,80" fill="#3a7ba8"/>
+    <!-- 真下 -->
+    <line x1="0" y1="0" x2="0" y2="100" stroke="#3a7ba8" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="0,115 -15,90 15,90" fill="#3a7ba8"/>
+    <!-- 右下 -->
+    <line x1="280" y1="0" x2="360" y2="80" stroke="#3a7ba8" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="370,90 360,60 340,80" fill="#3a7ba8"/>
+  </g>
+
+  <!-- 下段：応用先カード3個 -->
+  <g transform="translate(60, 620)">
+    <!-- プレゼン -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="580" height="320" rx="20" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+      <rect x="0" y="0" width="580" height="120" rx="20" fill="#5da8d4"/>
+      <rect x="0" y="96" width="580" height="24" fill="#5da8d4"/>
+      <g transform="translate(120, 30) scale(2.5)" fill="#ffffff">
+        <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z"/>
+      </g>
+      <text x="204" y="60" fill="#fff" font-weight="700" font-size="50" dominant-baseline="central">プレゼン</text>
+      <text x="290" y="180" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="36">セミナー・展示会</text>
+      <text x="290" y="240" text-anchor="middle" fill="#6b7280" font-weight="500" font-size="32">パワポ→HTML＋SVG</text>
+    </g>
+
+    <!-- 月次レポート -->
+    <g transform="translate(610, 0)">
+      <rect x="0" y="0" width="580" height="320" rx="20" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+      <rect x="0" y="0" width="580" height="120" rx="20" fill="#5da8d4"/>
+      <rect x="0" y="96" width="580" height="24" fill="#5da8d4"/>
+      <g transform="translate(95, 30) scale(2.5)" fill="#ffffff">
+        <rect x="2" y="4" width="20" height="1.5" rx="0.5"/>
+        <rect x="5" y="3" width="1" height="4" rx="0.3"/>
+        <rect x="11" y="3" width="1" height="4" rx="0.3"/>
+        <rect x="17" y="3" width="1" height="4" rx="0.3"/>
+        <rect x="2" y="10" width="8" height="4" rx="1"/>
+        <rect x="12" y="10" width="10" height="4" rx="1"/>
+        <rect x="2" y="16" width="12" height="4" rx="1"/>
+        <rect x="16" y="16" width="6" height="4" rx="1"/>
+      </g>
+      <text x="179" y="60" fill="#fff" font-weight="700" font-size="50" dominant-baseline="central">月次レポート</text>
+      <text x="290" y="180" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="36">数字とフロー図</text>
+      <text x="290" y="240" text-anchor="middle" fill="#6b7280" font-weight="500" font-size="32">SVGとの相性が良い</text>
+    </g>
+
+    <!-- 進行表 -->
+    <g transform="translate(1220, 0)">
+      <rect x="0" y="0" width="580" height="320" rx="20" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+      <rect x="0" y="0" width="580" height="120" rx="20" fill="#5da8d4"/>
+      <rect x="0" y="96" width="580" height="24" fill="#5da8d4"/>
+      <g transform="translate(140, 30) scale(2.5)" fill="#ffffff">
+        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+      </g>
+      <text x="224" y="60" fill="#fff" font-weight="700" font-size="50" dominant-baseline="central">進行表</text>
+      <text x="290" y="180" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="36">お客さんに送る書類</text>
+      <text x="290" y="240" text-anchor="middle" fill="#6b7280" font-weight="500" font-size="32">数字＋線表＋アイコン</text>
+    </g>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="160" y="990" width="1600" height="70" rx="35" fill="#fff" stroke="#fde6c1" stroke-width="2"/>
+    <circle cx="220" cy="1025" r="10" fill="#f59e0b"/>
+    <text x="260" y="1025" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="34">図表が組めると、AIに渡せる仕事の幅が増える</text>
+  </g>
+</svg>

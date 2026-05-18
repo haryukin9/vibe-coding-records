@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="画像とSVGコード、得意・不得意が違う">
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <text x="80" y="80" fill="#1f2937" font-weight="700" font-size="62" dominant-baseline="hanging">画像とSVGコード、得意・不得意が違う</text>
+  <line x1="80" y1="172" x2="280" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 左カード：画像 -->
+  <g transform="translate(80, 230)">
+    <rect x="0" y="0" width="820" height="720" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+
+    <!-- ヘッダー帯（センタリング） -->
+    <rect x="0" y="0" width="820" height="120" rx="24" fill="#5da8d4"/>
+    <rect x="0" y="96" width="820" height="24" fill="#5da8d4"/>
+    <g transform="translate(308, 30) scale(2.5)" fill="#ffffff">
+      <path fill-rule="evenodd" d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 6a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/>
+    </g>
+    <text x="392" y="60" fill="#fff" font-weight="700" font-size="54" dominant-baseline="central">画像</text>
+
+    <!-- メリット -->
+    <text x="70" y="200" fill="#3a7ba8" font-weight="700" font-size="42">メリット</text>
+    <line x1="70" y1="222" x2="290" y2="222" stroke="#5da8d4" stroke-width="4"/>
+
+    <g transform="translate(70, 260)">
+      <circle cx="22" cy="22" r="22" fill="#5da8d4"/>
+      <polyline points="12,22 19,29 32,15" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="74" y="36" fill="#1f2937" font-weight="600" font-size="40">ビジュアルが美しい</text>
+    </g>
+    <g transform="translate(70, 330)">
+      <circle cx="22" cy="22" r="22" fill="#5da8d4"/>
+      <polyline points="12,22 19,29 32,15" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="74" y="36" fill="#1f2937" font-weight="600" font-size="40">写真風・絵画風になる</text>
+    </g>
+    <g transform="translate(70, 400)">
+      <circle cx="22" cy="22" r="22" fill="#5da8d4"/>
+      <polyline points="12,22 19,29 32,15" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="74" y="36" fill="#1f2937" font-weight="600" font-size="40">雰囲気・映えが出る</text>
+    </g>
+
+    <!-- デメリット -->
+    <text x="70" y="510" fill="#6b7280" font-weight="700" font-size="42">デメリット</text>
+    <line x1="70" y1="532" x2="290" y2="532" stroke="#9ca3af" stroke-width="4"/>
+
+    <g transform="translate(70, 570)">
+      <circle cx="22" cy="22" r="22" fill="#9ca3af"/>
+      <line x1="12" y1="12" x2="32" y2="32" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+      <line x1="32" y1="12" x2="12" y2="32" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+      <text x="74" y="36" fill="#374151" font-weight="600" font-size="40">文字の描写が苦手</text>
+    </g>
+    <g transform="translate(70, 640)">
+      <circle cx="22" cy="22" r="22" fill="#9ca3af"/>
+      <line x1="12" y1="12" x2="32" y2="32" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+      <line x1="32" y1="12" x2="12" y2="32" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+      <text x="74" y="36" fill="#374151" font-weight="600" font-size="40">フロー図・概念図が崩れる</text>
+    </g>
+  </g>
+
+  <!-- 右カード：SVGコード -->
+  <g transform="translate(1020, 230)">
+    <rect x="0" y="0" width="820" height="720" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+
+    <!-- ヘッダー帯（センタリング） -->
+    <rect x="0" y="0" width="820" height="120" rx="24" fill="#5da8d4"/>
+    <rect x="0" y="96" width="820" height="24" fill="#5da8d4"/>
+    <g transform="translate(228, 30) scale(2.5)" fill="#ffffff">
+      <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+    </g>
+    <text x="312" y="60" fill="#fff" font-weight="700" font-size="54" dominant-baseline="central">SVGコード</text>
+
+    <!-- メリット -->
+    <text x="70" y="200" fill="#3a7ba8" font-weight="700" font-size="42">メリット</text>
+    <line x1="70" y1="222" x2="290" y2="222" stroke="#5da8d4" stroke-width="4"/>
+
+    <g transform="translate(70, 260)">
+      <circle cx="22" cy="22" r="22" fill="#5da8d4"/>
+      <polyline points="12,22 19,29 32,15" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="74" y="36" fill="#1f2937" font-weight="600" font-size="40">文字の描写が指示通り</text>
+    </g>
+    <g transform="translate(70, 330)">
+      <circle cx="22" cy="22" r="22" fill="#5da8d4"/>
+      <polyline points="12,22 19,29 32,15" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="74" y="36" fill="#1f2937" font-weight="600" font-size="40">フロー図・概念図が描ける</text>
+    </g>
+    <g transform="translate(70, 400)">
+      <circle cx="22" cy="22" r="22" fill="#5da8d4"/>
+      <polyline points="12,22 19,29 32,15" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="74" y="36" fill="#1f2937" font-weight="600" font-size="40">コードで指示通りに修正</text>
+    </g>
+
+    <!-- デメリット -->
+    <text x="70" y="510" fill="#6b7280" font-weight="700" font-size="42">デメリット</text>
+    <line x1="70" y1="532" x2="290" y2="532" stroke="#9ca3af" stroke-width="4"/>
+
+    <g transform="translate(70, 570)">
+      <circle cx="22" cy="22" r="22" fill="#9ca3af"/>
+      <line x1="12" y1="12" x2="32" y2="32" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+      <line x1="32" y1="12" x2="12" y2="32" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+      <text x="74" y="36" fill="#374151" font-weight="600" font-size="40">写真風・絵画風は作れない</text>
+    </g>
+    <g transform="translate(70, 640)">
+      <circle cx="22" cy="22" r="22" fill="#9ca3af"/>
+      <line x1="12" y1="12" x2="32" y2="32" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+      <line x1="32" y1="12" x2="12" y2="32" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+      <text x="74" y="36" fill="#374151" font-weight="600" font-size="40">雰囲気・映えは苦手</text>
+    </g>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="160" y="990" width="1600" height="70" rx="35" fill="#fff" stroke="#fde6c1" stroke-width="2"/>
+    <circle cx="220" cy="1025" r="10" fill="#f59e0b"/>
+    <text x="260" y="1025" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="34">図表はSVGコードに、雰囲気カットは画像に、と使い分ける</text>
+  </g>
+</svg>

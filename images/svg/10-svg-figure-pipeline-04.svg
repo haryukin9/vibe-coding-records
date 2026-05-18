@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="画像ガチャとSVGコード修正の対比">
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <text x="80" y="80" fill="#1f2937" font-weight="700" font-size="62" dominant-baseline="hanging">「画像ガチャ」じゃなくて、コードを直すだけで変えられる</text>
+  <line x1="80" y1="172" x2="280" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 左カード：画像ガチャ -->
+  <g transform="translate(80, 230)">
+    <rect x="0" y="0" width="820" height="720" rx="24" fill="#fff" stroke="#9ca3af" stroke-width="3"/>
+
+    <rect x="0" y="0" width="820" height="120" rx="24" fill="#6b7280"/>
+    <rect x="0" y="96" width="820" height="24" fill="#6b7280"/>
+    <g transform="translate(252, 30) scale(2.5)" fill="#ffffff">
+      <path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"/>
+    </g>
+    <text x="336" y="60" fill="#fff" font-weight="700" font-size="54" dominant-baseline="central">画像ガチャ</text>
+
+    <g transform="translate(70, 200)">
+      <circle cx="26" cy="26" r="26" fill="#9ca3af"/>
+      <line x1="14" y1="14" x2="38" y2="38" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+      <line x1="38" y1="14" x2="14" y2="38" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+      <text x="86" y="42" fill="#374151" font-weight="600" font-size="42">「もう一回生成」を繰り返す</text>
+    </g>
+    <g transform="translate(70, 300)">
+      <circle cx="26" cy="26" r="26" fill="#9ca3af"/>
+      <line x1="14" y1="14" x2="38" y2="38" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+      <line x1="38" y1="14" x2="14" y2="38" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+      <text x="86" y="42" fill="#374151" font-weight="600" font-size="42">プロンプトを少し変える</text>
+    </g>
+    <g transform="translate(70, 400)">
+      <circle cx="26" cy="26" r="26" fill="#9ca3af"/>
+      <line x1="14" y1="14" x2="38" y2="38" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+      <line x1="38" y1="14" x2="14" y2="38" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+      <text x="86" y="42" fill="#374151" font-weight="600" font-size="42">毎回、別の崩れ方</text>
+    </g>
+    <g transform="translate(70, 500)">
+      <circle cx="26" cy="26" r="26" fill="#9ca3af"/>
+      <line x1="14" y1="14" x2="38" y2="38" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+      <line x1="38" y1="14" x2="14" y2="38" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+      <text x="86" y="42" fill="#374151" font-weight="600" font-size="42">当たり1枚を引くまで何度も</text>
+    </g>
+
+    <text x="410" y="650" text-anchor="middle" fill="#6b7280" font-weight="700" font-size="44">運任せ・時間がかかる</text>
+  </g>
+
+  <!-- 右カード：SVGコード修正 -->
+  <g transform="translate(1020, 230)">
+    <rect x="0" y="0" width="820" height="720" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+
+    <rect x="0" y="0" width="820" height="120" rx="24" fill="#5da8d4"/>
+    <rect x="0" y="96" width="820" height="24" fill="#5da8d4"/>
+    <g transform="translate(192, 30) scale(2.5)" fill="#ffffff">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+    </g>
+    <text x="276" y="60" fill="#fff" font-weight="700" font-size="54" dominant-baseline="central">SVGコード修正</text>
+
+    <g transform="translate(70, 200)">
+      <circle cx="26" cy="26" r="26" fill="#5da8d4"/>
+      <polyline points="14,26 22,34 38,18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="86" y="42" fill="#1f2937" font-weight="600" font-size="42">「ここの色を変えて」</text>
+    </g>
+    <g transform="translate(70, 300)">
+      <circle cx="26" cy="26" r="26" fill="#5da8d4"/>
+      <polyline points="14,26 22,34 38,18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="86" y="42" fill="#1f2937" font-weight="600" font-size="42">「文字をひとまわり大きく」</text>
+    </g>
+    <g transform="translate(70, 400)">
+      <circle cx="26" cy="26" r="26" fill="#5da8d4"/>
+      <polyline points="14,26 22,34 38,18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="86" y="42" fill="#1f2937" font-weight="600" font-size="42">その箇所だけが書き換わる</text>
+    </g>
+    <g transform="translate(70, 500)">
+      <circle cx="26" cy="26" r="26" fill="#5da8d4"/>
+      <polyline points="14,26 22,34 38,18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="86" y="42" fill="#1f2937" font-weight="600" font-size="42">修正は数秒で終わる</text>
+    </g>
+
+    <text x="410" y="650" text-anchor="middle" fill="#3a7ba8" font-weight="700" font-size="44">思い通りに、何度でも</text>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="160" y="990" width="1600" height="70" rx="35" fill="#fff" stroke="#fde6c1" stroke-width="2"/>
+    <circle cx="220" cy="1025" r="10" fill="#f59e0b"/>
+    <text x="260" y="1025" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="34">画像を「引く」じゃなくて、コードを「直す」発想に変わる</text>
+  </g>
+</svg>

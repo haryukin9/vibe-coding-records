@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="会社の発信物の図表がSVGになった">
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <text x="80" y="80" fill="#1f2937" font-weight="700" font-size="62" dominant-baseline="hanging">会社の発信物の図表がSVGになった</text>
+  <line x1="80" y1="172" x2="280" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 上段：4発信物カード -->
+  <g transform="translate(60, 230)">
+    <!-- 会社記事 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="430" height="280" rx="20" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+      <rect x="0" y="0" width="430" height="110" rx="20" fill="#5da8d4"/>
+      <rect x="0" y="90" width="430" height="20" fill="#5da8d4"/>
+      <g transform="translate(70, 28) scale(2.2)" fill="#ffffff">
+        <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+      </g>
+      <text x="140" y="56" fill="#fff" font-weight="700" font-size="44" dominant-baseline="central">会社記事</text>
+      <text x="215" y="170" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="38">章ごとの図解</text>
+      <text x="215" y="225" text-anchor="middle" fill="#6b7280" font-weight="500" font-size="32">H2見出し直後に配置</text>
+    </g>
+
+    <!-- 営業資料 -->
+    <g transform="translate(460, 0)">
+      <rect x="0" y="0" width="430" height="280" rx="20" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+      <rect x="0" y="0" width="430" height="110" rx="20" fill="#5da8d4"/>
+      <rect x="0" y="90" width="430" height="20" fill="#5da8d4"/>
+      <g transform="translate(54, 28) scale(2.2)" fill="#ffffff">
+        <path d="M19 14V6c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zm-9-1c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm13-5v9c0 1.1-.9 2-2 2H4v-2h17V8h2z"/>
+      </g>
+      <text x="124" y="56" fill="#fff" font-weight="700" font-size="44" dominant-baseline="central">営業資料</text>
+      <text x="215" y="170" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="38">料金表・制作フロー</text>
+      <text x="215" y="225" text-anchor="middle" fill="#6b7280" font-weight="500" font-size="32">16ページのHTML</text>
+    </g>
+
+    <!-- ホワイトペーパー -->
+    <g transform="translate(920, 0)">
+      <rect x="0" y="0" width="430" height="280" rx="20" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+      <rect x="0" y="0" width="430" height="110" rx="20" fill="#5da8d4"/>
+      <rect x="0" y="90" width="430" height="20" fill="#5da8d4"/>
+      <g transform="translate(18, 28) scale(2.2)" fill="#ffffff">
+        <path d="M11 21h-1l1-7H7.5c-.58 0-.57-.32-.38-.66.19-.34.05-.08.07-.12C8.48 10.94 10.42 7.54 13 3h1l-1 7h3.5c.49 0 .56.33.47.51l-.07.15C12.96 17.55 11 21 11 21z"/>
+      </g>
+      <text x="88" y="56" fill="#fff" font-weight="700" font-size="38" dominant-baseline="central">ホワイトペーパー</text>
+      <text x="215" y="170" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="38">18ページの図表</text>
+      <text x="215" y="225" text-anchor="middle" fill="#6b7280" font-weight="500" font-size="32">HTMLで月3〜5本量産</text>
+    </g>
+
+    <!-- note連載 -->
+    <g transform="translate(1380, 0)">
+      <rect x="0" y="0" width="430" height="280" rx="20" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+      <rect x="0" y="0" width="430" height="110" rx="20" fill="#5da8d4"/>
+      <rect x="0" y="90" width="430" height="20" fill="#5da8d4"/>
+      <g transform="translate(54, 28) scale(2.2)" fill="#ffffff">
+        <path d="M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zM19 15l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25L19 15z"/>
+      </g>
+      <text x="124" y="56" fill="#fff" font-weight="700" font-size="44" dominant-baseline="central">note連載</text>
+      <text x="215" y="170" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="38">章ごとの図解</text>
+      <text x="215" y="225" text-anchor="middle" fill="#6b7280" font-weight="500" font-size="32">アイキャッチもSVG</text>
+    </g>
+  </g>
+
+  <!-- 中央：矢印 -->
+  <g transform="translate(940, 560)">
+    <line x1="20" y1="0" x2="20" y2="50" stroke="#3a7ba8" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="20,65 0,40 40,40" fill="#3a7ba8"/>
+  </g>
+
+  <!-- 下段：SVG基盤 -->
+  <g transform="translate(60, 660)">
+    <rect x="0" y="0" width="1800" height="260" rx="24" fill="#fef3e2" stroke="#f59e0b" stroke-width="4"/>
+
+    <rect x="0" y="0" width="1800" height="100" rx="24" fill="#f59e0b"/>
+    <rect x="0" y="76" width="1800" height="24" fill="#f59e0b"/>
+    <text x="900" y="50" text-anchor="middle" fill="#fff" font-weight="700" font-size="54" dominant-baseline="central">AI × SVG ＋ ブランドルール</text>
+
+    <!-- カラー -->
+    <g transform="translate(254, 180)">
+      <g transform="translate(0, -34) scale(2.8)" fill="#f59e0b">
+        <path d="M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zM19 15l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25L19 15z"/>
+      </g>
+      <text x="92" y="0" fill="#1f2937" font-weight="700" font-size="60" dominant-baseline="central">カラー</text>
+    </g>
+    <!-- フォント -->
+    <g transform="translate(722, 180)">
+      <g transform="translate(0, -34) scale(2.8)" fill="#f59e0b">
+        <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+      </g>
+      <text x="92" y="0" fill="#1f2937" font-weight="700" font-size="60" dominant-baseline="central">フォント</text>
+    </g>
+    <!-- レイアウト -->
+    <g transform="translate(1216, 180)">
+      <g transform="translate(0, -34) scale(2.8)" fill="#f59e0b">
+        <path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94 0 .31.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/>
+      </g>
+      <text x="92" y="0" fill="#1f2937" font-weight="700" font-size="60" dominant-baseline="central">レイアウト</text>
+    </g>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="160" y="980" width="1600" height="70" rx="35" fill="#fff" stroke="#fde6c1" stroke-width="2"/>
+    <circle cx="220" cy="1015" r="10" fill="#f59e0b"/>
+    <text x="260" y="1015" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="34">設計図を渡せば、AIが「同じトーンで」図表を書いてくれる</text>
+  </g>
+</svg>
