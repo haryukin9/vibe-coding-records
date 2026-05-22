@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="ホワイトペーパーをHTMLで量産する">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- 上部 -->
+  <text x="80" y="60" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="3" dominant-baseline="hanging">中小企業のひとりDX担当が、AIで会社をアップデートする</text>
+  <line x1="80" y1="105" x2="220" y2="105" stroke="#5da8d4" stroke-width="3"/>
+  <text x="1200" y="60" text-anchor="end" fill="#f59e0b" font-weight="700" font-size="26" letter-spacing="2" dominant-baseline="hanging">#11 — WP</text>
+
+  <!-- メインタイトル -->
+  <text x="80" y="200" font-weight="700" font-size="80" dominant-baseline="hanging">
+    <tspan fill="#1f2937">ホワイトペーパーを</tspan>
+  </text>
+  <text x="80" y="308" font-weight="700" font-size="80" dominant-baseline="hanging">
+    <tspan fill="#f59e0b">HTML</tspan><tspan fill="#1f2937">で量産する</tspan>
+  </text>
+
+  <!-- サブタイトル -->
+  <text x="80" y="432" fill="#3a7ba8" font-weight="600" font-size="24" letter-spacing="1">— 記事からAIが読める形で出力、PDFも自動生成</text>
+
+  <!-- 右側：YAML→build.py→HTML+PDF+OGPフロー -->
+  <g transform="translate(790, 140)">
+    <text x="210" y="-18" text-anchor="middle" fill="#6b7280" font-size="17" font-weight="600">自動生成パイプライン</text>
+
+    <!-- YAML入力 -->
+    <rect x="110" y="0" width="200" height="72" rx="12" fill="#fef3e2" stroke="#f59e0b" stroke-width="2.5"/>
+    <text x="210" y="30" text-anchor="middle" dominant-baseline="central" fill="#f59e0b" font-weight="700" font-size="28">YAML</text>
+    <text x="210" y="55" text-anchor="middle" dominant-baseline="central" fill="#92400e" font-size="14">内容を書くだけ</text>
+
+    <!-- 矢印 -->
+    <line x1="210" y1="72" x2="210" y2="108" stroke="#3a7ba8" stroke-width="3"/>
+    <polygon points="210,116 201,102 219,102" fill="#3a7ba8"/>
+
+    <!-- build.py -->
+    <rect x="60" y="116" width="300" height="72" rx="12" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+    <text x="210" y="148" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="22">build.py</text>
+    <text x="210" y="170" text-anchor="middle" dominant-baseline="central" fill="#5da8d4" font-size="13">圧縮・iOS対応・OGP生成</text>
+
+    <!-- 3分岐矢印 -->
+    <line x1="210" y1="188" x2="210" y2="216" stroke="#3a7ba8" stroke-width="2.5"/>
+    <line x1="210" y1="204" x2="65" y2="228" stroke="#3a7ba8" stroke-width="2.5"/>
+    <line x1="210" y1="204" x2="355" y2="228" stroke="#3a7ba8" stroke-width="2.5"/>
+    <polygon points="65,236 55,222 76,222" fill="#3a7ba8"/>
+    <polygon points="210,226 201,212 219,212" fill="#3a7ba8"/>
+    <polygon points="355,236 345,222 366,222" fill="#3a7ba8"/>
+
+    <!-- HTML出力 -->
+    <rect x="0" y="236" width="130" height="64" rx="10" fill="#fff" stroke="#5da8d4" stroke-width="2.5"/>
+    <text x="65" y="260" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="20">HTML</text>
+    <text x="65" y="282" text-anchor="middle" dominant-baseline="central" fill="#5da8d4" font-size="12">AI・検索が読む</text>
+
+    <!-- PDF出力 -->
+    <rect x="145" y="236" width="130" height="64" rx="10" fill="#fff" stroke="#5da8d4" stroke-width="2.5"/>
+    <text x="210" y="260" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="20">PDF</text>
+    <text x="210" y="282" text-anchor="middle" dominant-baseline="central" fill="#5da8d4" font-size="12">1〜2MB軽量版</text>
+
+    <!-- OGP出力 -->
+    <rect x="290" y="236" width="130" height="64" rx="10" fill="#fff" stroke="#5da8d4" stroke-width="2.5"/>
+    <text x="355" y="260" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="20">OGP</text>
+    <text x="355" y="282" text-anchor="middle" dominant-baseline="central" fill="#5da8d4" font-size="12">自動生成</text>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="200" y="608" width="880" height="60" rx="30" fill="#fff" stroke="#fde6c1" stroke-width="1.5"/>
+    <circle cx="240" cy="638" r="7" fill="#f59e0b"/>
+    <text x="266" y="638" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="22" letter-spacing="0.5">「記事からWPを作って」の一言で仕組みができた</text>
+  </g>
+</svg>

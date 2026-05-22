@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- ページタイトル -->
+  <text x="640" y="36" text-anchor="middle" dominant-baseline="hanging" fill="#6b7280" font-size="28" font-weight="600" letter-spacing="2">コンテンツへのアクセス比較</text>
+
+  <!-- 左パネル：フォームあり -->
+  <rect x="40" y="72" width="560" height="558" rx="20" fill="#fff" stroke="#e5e7eb" stroke-width="2"/>
+  <rect x="40" y="72" width="560" height="56" rx="20" fill="#f3f4f6"/>
+  <rect x="40" y="108" width="560" height="20" fill="#f3f4f6"/>
+  <text x="320" y="100" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="24" font-weight="700">フォームあり</text>
+
+  <!-- エンティティ（左） cy=180 -->
+  <circle cx="150" cy="180" r="42" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="150" y="180" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="20" font-weight="700">人間</text>
+
+  <circle cx="320" cy="180" r="42" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="320" y="180" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="22" font-weight="700">AI</text>
+
+  <circle cx="490" cy="180" r="42" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="490" y="173" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="16" font-weight="700">検索</text>
+  <text x="490" y="191" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="16" font-weight="700">エンジン</text>
+
+  <!-- 人間：壁への矢印 -->
+  <line x1="150" y1="222" x2="150" y2="276" stroke="#5da8d4" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <polygon points="150,290 140,276 160,276" fill="#5da8d4"/>
+
+  <!-- AI, 検索エンジン：短いライン -->
+  <line x1="320" y1="222" x2="320" y2="252" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="490" y1="222" x2="490" y2="252" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- 壁 -->
+  <rect x="80" y="290" width="480" height="60" rx="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="2"/>
+  <text x="320" y="320" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="20" font-weight="700">フォームの壁</text>
+
+  <!-- ✗（壁の後に描画して前面に表示） -->
+  <line x1="304" y1="256" x2="336" y2="284" stroke="#f59e0b" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="336" y1="256" x2="304" y2="284" stroke="#f59e0b" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="474" y1="256" x2="506" y2="284" stroke="#f59e0b" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="506" y1="256" x2="474" y2="284" stroke="#f59e0b" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- 人間：壁通過後の矢印 -->
+  <line x1="150" y1="350" x2="150" y2="426" stroke="#5da8d4" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <polygon points="150,440 140,426 160,426" fill="#5da8d4"/>
+
+  <!-- コンテンツ（ロック） -->
+  <rect x="100" y="440" width="440" height="96" rx="12" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <text x="320" y="476" text-anchor="middle" dominant-baseline="central" fill="#9ca3af" font-size="22" font-weight="600">ホワイトペーパー</text>
+  <text x="320" y="504" text-anchor="middle" dominant-baseline="central" fill="#d1d5db" font-size="15">（フォームの奥）</text>
+
+  <!-- まとめ（左） -->
+  <rect x="100" y="556" width="440" height="54" rx="27" fill="#f3f4f6"/>
+  <text x="320" y="583" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="18" font-weight="600">届く相手 ＝ 人間のみ</text>
+
+  <!-- 右パネル：HTML公開 -->
+  <rect x="680" y="72" width="560" height="558" rx="20" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <rect x="680" y="72" width="560" height="56" rx="20" fill="#dbeafe"/>
+  <rect x="680" y="108" width="560" height="20" fill="#dbeafe"/>
+  <text x="960" y="100" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="24" font-weight="700">HTMLで公開</text>
+
+  <!-- エンティティ（右） cy=180 -->
+  <circle cx="790" cy="180" r="42" fill="#dbeafe" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="790" y="180" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="20" font-weight="700">人間</text>
+
+  <circle cx="960" cy="180" r="42" fill="#dbeafe" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="960" y="180" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="22" font-weight="700">AI</text>
+
+  <circle cx="1130" cy="180" r="42" fill="#dbeafe" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="1130" y="173" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="16" font-weight="700">検索</text>
+  <text x="1130" y="191" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="16" font-weight="700">エンジン</text>
+
+  <!-- 全員：直下矢印 -->
+  <line x1="790" y1="222" x2="790" y2="426" stroke="#5da8d4" stroke-width="2.5"/>
+  <polygon points="790,440 780,426 800,426" fill="#5da8d4"/>
+
+  <line x1="960" y1="222" x2="960" y2="426" stroke="#5da8d4" stroke-width="2.5"/>
+  <polygon points="960,440 950,426 970,426" fill="#5da8d4"/>
+
+  <line x1="1130" y1="222" x2="1130" y2="426" stroke="#5da8d4" stroke-width="2.5"/>
+  <polygon points="1130,440 1120,426 1140,426" fill="#5da8d4"/>
+
+  <!-- コンテンツ（オープン） -->
+  <rect x="700" y="440" width="520" height="96" rx="12" fill="#fff" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="960" y="476" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="22" font-weight="600">ホワイトペーパー</text>
+  <text x="960" y="504" text-anchor="middle" dominant-baseline="central" fill="#5da8d4" font-size="15">HTML（直接読める）+ PDF</text>
+
+  <!-- まとめ（右） -->
+  <rect x="740" y="556" width="440" height="54" rx="27" fill="#dbeafe" stroke="#5da8d4" stroke-width="1.5"/>
+  <text x="960" y="583" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="18" font-weight="700">届く相手 ＝ 人間＋AI＋検索エンジン</text>
+
+  <!-- VS -->
+  <text x="640" y="380" text-anchor="middle" dominant-baseline="central" fill="#9ca3af" font-size="48" font-weight="700">vs</text>
+</svg>

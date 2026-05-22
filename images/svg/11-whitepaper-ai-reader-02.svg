@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- タイトル -->
+  <text x="640" y="48" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="22" font-weight="600" letter-spacing="2">ホワイトペーパー自動生成パイプライン</text>
+
+  <!-- STEP 1: 記事（入力） -->
+  <rect x="60" y="240" width="200" height="200" rx="16" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="160" y="304" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="15" font-weight="600">もとになる</text>
+  <text x="160" y="328" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-size="28" font-weight="700">記事</text>
+  <line x1="80" y1="360" x2="240" y2="360" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="160" y="385" text-anchor="middle" dominant-baseline="central" fill="#9ca3af" font-size="14">1本〜複数本</text>
+
+  <!-- 矢印 1→2 -->
+  <line x1="260" y1="340" x2="330" y2="340" stroke="#5da8d4" stroke-width="3"/>
+  <polygon points="340,340 326,332 326,348" fill="#5da8d4"/>
+
+  <!-- STEP 2: YAML（内容記述） -->
+  <rect x="340" y="240" width="200" height="200" rx="16" fill="#fef3e2" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="440" y="295" text-anchor="middle" dominant-baseline="central" fill="#92400e" font-size="15" font-weight="600">内容を書く</text>
+  <text x="440" y="330" text-anchor="middle" dominant-baseline="central" fill="#f59e0b" font-size="34" font-weight="700">YAML</text>
+  <line x1="360" y1="362" x2="520" y2="362" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="440" y="388" text-anchor="middle" dominant-baseline="central" fill="#92400e" font-size="14">箇条書き形式</text>
+
+  <!-- 矢印 2→3 -->
+  <line x1="540" y1="340" x2="610" y2="340" stroke="#5da8d4" stroke-width="3"/>
+  <polygon points="620,340 606,332 606,348" fill="#5da8d4"/>
+
+  <!-- STEP 3: build.py（処理） -->
+  <rect x="620" y="220" width="240" height="240" rx="16" fill="#eff6ff" stroke="#5da8d4" stroke-width="3"/>
+  <text x="740" y="296" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="14" font-weight="600">Claude Codeが作った</text>
+  <text x="740" y="322" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="26" font-weight="700">build.py</text>
+  <line x1="640" y1="354" x2="840" y2="354" stroke="#bfdbfe" stroke-width="1.5"/>
+  <text x="740" y="378" text-anchor="middle" dominant-baseline="central" fill="#5da8d4" font-size="13">自動変換スクリプト</text>
+  <text x="740" y="398" text-anchor="middle" dominant-baseline="central" fill="#5da8d4" font-size="13">PDF圧縮・iOS対応も内包</text>
+
+  <!-- 矢印 3→出力（3方向） -->
+  <!-- 左上 HTML -->
+  <line x1="860" y1="300" x2="958" y2="198" stroke="#5da8d4" stroke-width="2.5"/>
+  <polygon points="965,192 952,196 957,210" fill="#5da8d4"/>
+  <!-- 右 PDF -->
+  <line x1="860" y1="340" x2="980" y2="340" stroke="#5da8d4" stroke-width="2.5"/>
+  <polygon points="990,340 976,332 976,348" fill="#5da8d4"/>
+  <!-- 左下 OGP -->
+  <line x1="860" y1="380" x2="958" y2="484" stroke="#5da8d4" stroke-width="2.5"/>
+  <polygon points="965,490 952,476 966,482" fill="#5da8d4"/>
+
+  <!-- 出力 HTML -->
+  <rect x="966" y="120" width="254" height="140" rx="16" fill="#fff" stroke="#5da8d4" stroke-width="2"/>
+  <text x="1093" y="170" text-anchor="middle" dominant-baseline="central" fill="#5da8d4" font-size="30" font-weight="700">HTML</text>
+  <line x1="986" y1="198" x2="1200" y2="198" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="1093" y="222" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="14">Webに公開・AIが読める</text>
+
+  <!-- 出力 PDF -->
+  <rect x="990" y="270" width="254" height="140" rx="16" fill="#fff" stroke="#5da8d4" stroke-width="2"/>
+  <text x="1117" y="320" text-anchor="middle" dominant-baseline="central" fill="#5da8d4" font-size="30" font-weight="700">PDF</text>
+  <line x1="1010" y1="348" x2="1224" y2="348" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="1117" y="372" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="14">1〜2MB・iOS対応済み</text>
+
+  <!-- 出力 OGP -->
+  <rect x="966" y="420" width="254" height="140" rx="16" fill="#fff" stroke="#5da8d4" stroke-width="2"/>
+  <text x="1093" y="470" text-anchor="middle" dominant-baseline="central" fill="#5da8d4" font-size="30" font-weight="700">OGP画像</text>
+  <line x1="986" y1="498" x2="1200" y2="498" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="1093" y="522" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="14">SNS・他ページのサムネ用</text>
+
+  <!-- ステップ番号 -->
+  <circle cx="160" cy="490" r="18" fill="#e5e7eb"/>
+  <text x="160" y="490" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="16" font-weight="700">1</text>
+  <circle cx="440" cy="490" r="18" fill="#fde68a"/>
+  <text x="440" y="490" text-anchor="middle" dominant-baseline="central" fill="#92400e" font-size="16" font-weight="700">2</text>
+  <circle cx="740" cy="510" r="18" fill="#bfdbfe"/>
+  <text x="740" y="510" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-size="16" font-weight="700">3</text>
+</svg>
