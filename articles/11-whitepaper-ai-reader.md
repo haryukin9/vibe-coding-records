@@ -1,6 +1,6 @@
 ---
 title: AI検索時代に、ホワイトペーパーのHTML＋PDF自動生成を内製化して月3〜5本量産できるようにした話
-date: 2026-05-23
+date: 2026-07-01
 slug: whitepaper-ai-reader
 excerpt: 営業資料と同じ仕組みを対外配布物に応用した話。AI検索時代に「AIが読みに来る前提」でHTMLで18ページのホワイトペーパーを量産し、PDFも自動出力して両方を公開する仕組みを内製化。1本目公開後にLLM流入が急増した話と、PDF軽量化の自動化まで含めた記録。
 tags: [vibe-coding, claude-code, dx, 内製化, ひとりDX担当の記録, ホワイトペーパー, AIO, SGE]
