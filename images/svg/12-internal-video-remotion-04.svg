@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="素材は、記事にあるものを使う">
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <text x="80" y="80" fill="#1f2937" font-weight="700" font-size="62" dominant-baseline="hanging">素材は、記事にあるものを使う</text>
+  <line x1="80" y1="172" x2="280" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 素材① 記事の画像 -->
+  <rect x="70" y="300" width="560" height="200" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="70" y="300" width="560" height="80" rx="24" fill="#5da8d4"/>
+  <rect x="70" y="354" width="560" height="26" fill="#5da8d4"/>
+  <g transform="translate(140, 318) scale(1.9)" fill="#ffffff">
+    <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+  </g>
+  <text x="395" y="341" text-anchor="middle" dominant-baseline="central" fill="#fff" font-weight="700" font-size="44">記事の画像</text>
+  <text x="350" y="455" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="34">図解・写真をそのまま流用</text>
+
+  <!-- 素材② 操作画面の録画 -->
+  <rect x="70" y="560" width="560" height="200" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="70" y="560" width="560" height="80" rx="24" fill="#5da8d4"/>
+  <rect x="70" y="614" width="560" height="26" fill="#5da8d4"/>
+  <g transform="translate(132, 578) scale(1.9)" fill="#ffffff">
+    <path d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 6a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/>
+  </g>
+  <text x="400" y="601" text-anchor="middle" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">操作画面の録画</text>
+  <text x="350" y="715" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="34">Playwrightが自動でなぞる</text>
+
+  <!-- 矢印 素材→型 -->
+  <line x1="630" y1="400" x2="734" y2="400" stroke="#3a7ba8" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="758,400 732,387 732,413" fill="#3a7ba8"/>
+  <line x1="630" y1="660" x2="734" y2="660" stroke="#3a7ba8" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="758,660 732,647 732,673" fill="#3a7ba8"/>
+
+  <!-- Remotionの型 -->
+  <rect x="760" y="360" width="520" height="340" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="760" y="360" width="520" height="86" rx="24" fill="#5da8d4"/>
+  <rect x="760" y="416" width="520" height="30" fill="#5da8d4"/>
+  <g transform="translate(872, 378) scale(1.8)" fill="#ffffff">
+    <path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94 0 .31.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/>
+  </g>
+  <text x="1060" y="403" text-anchor="middle" dominant-baseline="central" fill="#fff" font-weight="700" font-size="44">Remotionの型</text>
+  <text x="1020" y="520" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="38">配置やテロップは</text>
+  <text x="1020" y="572" text-anchor="middle" fill="#1f2937" font-weight="600" font-size="38">作った型を使い回す</text>
+  <text x="1020" y="640" text-anchor="middle" fill="#6b7280" font-weight="500" font-size="32">＋ 分割した音声を流し込む</text>
+
+  <!-- 矢印 型→動画 -->
+  <line x1="1280" y1="530" x2="1384" y2="530" stroke="#3a7ba8" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="1408,530 1382,515 1382,545" fill="#3a7ba8"/>
+
+  <!-- 動画 -->
+  <rect x="1410" y="410" width="430" height="240" rx="24" fill="#eff6ff" stroke="#5da8d4" stroke-width="3"/>
+  <polygon points="1600,460 1600,540 1666,500" fill="#5da8d4"/>
+  <text x="1625" y="600" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="40">要約動画</text>
+
+  <!-- フッターキャッチ -->
+  <rect x="160" y="980" width="1600" height="70" rx="35" fill="#fff" stroke="#fde6c1" stroke-width="2"/>
+  <circle cx="220" cy="1015" r="10" fill="#f59e0b"/>
+  <text x="260" y="1015" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="34">記事の画像を使い、足りない分だけ自動で録画。あとは型に流すだけ</text>
+</svg>

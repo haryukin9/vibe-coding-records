@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="記事の解説動画を量産する仕組みにした話">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- 上部 -->
+  <text x="80" y="60" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="3" dominant-baseline="hanging">中小企業のひとりDX担当が、AIで会社をアップデートする</text>
+  <line x1="80" y1="105" x2="220" y2="105" stroke="#5da8d4" stroke-width="3"/>
+  <text x="1200" y="60" text-anchor="end" fill="#f59e0b" font-weight="700" font-size="26" letter-spacing="2" dominant-baseline="hanging">#12 — VIDEO</text>
+
+  <!-- メインタイトル -->
+  <text x="80" y="200" font-weight="700" font-size="80" dominant-baseline="hanging">
+    <tspan fill="#1f2937">記事の解説</tspan><tspan fill="#f59e0b">動画</tspan><tspan fill="#1f2937">を</tspan>
+  </text>
+  <text x="80" y="308" font-weight="700" font-size="80" dominant-baseline="hanging">
+    <tspan fill="#f59e0b">量産</tspan><tspan fill="#1f2937">する仕組み</tspan>
+  </text>
+
+  <!-- サブタイトル -->
+  <text x="80" y="432" fill="#3a7ba8" font-weight="600" font-size="24" letter-spacing="1">— 台本から映像まで、2本目は記事を流し込むだけ</text>
+
+  <!-- 右側：記事→台本＋素材→動画 のフロー -->
+  <g transform="translate(810, 165)">
+    <text x="200" y="-20" text-anchor="middle" fill="#6b7280" font-size="17" font-weight="600">記事を動画にする流れ</text>
+
+    <!-- 記事 -->
+    <rect x="100" y="0" width="200" height="72" rx="12" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+    <g transform="translate(120, 15) scale(1.75)" fill="#5da8d4">
+      <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+    </g>
+    <text x="178" y="30" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="24">記事</text>
+    <text x="178" y="54" dominant-baseline="central" fill="#5da8d4" font-size="13">図解・写真・本文</text>
+
+    <!-- 矢印 -->
+    <line x1="200" y1="72" x2="200" y2="104" stroke="#3a7ba8" stroke-width="3"/>
+    <polygon points="200,112 191,98 209,98" fill="#3a7ba8"/>
+
+    <!-- 台本＋素材 -->
+    <rect x="100" y="112" width="200" height="72" rx="12" fill="#fef3e2" stroke="#f59e0b" stroke-width="2.5"/>
+    <g transform="translate(120, 127) scale(1.75)" fill="#f59e0b">
+      <path d="M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zM19 15l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25L19 15z"/>
+    </g>
+    <text x="178" y="142" dominant-baseline="central" fill="#f59e0b" font-weight="700" font-size="22">台本＋素材</text>
+    <text x="178" y="166" dominant-baseline="central" fill="#92400e" font-size="13">要約＋記事の画像</text>
+
+    <!-- 矢印 -->
+    <line x1="200" y1="184" x2="200" y2="216" stroke="#3a7ba8" stroke-width="3"/>
+    <polygon points="200,224 191,210 209,210" fill="#3a7ba8"/>
+
+    <!-- 動画 -->
+    <rect x="100" y="224" width="200" height="80" rx="12" fill="#fff" stroke="#5da8d4" stroke-width="2.5"/>
+    <g transform="translate(122, 242) scale(1.75)" fill="#5da8d4">
+      <path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+    </g>
+    <text x="178" y="264" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="24">要約動画</text>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="200" y="608" width="880" height="60" rx="30" fill="#fff" stroke="#fde6c1" stroke-width="1.5"/>
+    <circle cx="240" cy="638" r="7" fill="#f59e0b"/>
+    <text x="266" y="638" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="22" letter-spacing="0.5">会社で作った仕組みを、この連載の動画にも流用した</text>
+  </g>
+</svg>
