@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="会社のメルマガを自前に乗り換えて、リード獲得から育成・選別までAIでひとつなぎにした話">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- 上部 -->
+  <text x="80" y="60" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="3" dominant-baseline="hanging">中小企業のひとりDX担当が、AIで会社をアップデートする</text>
+  <line x1="80" y1="105" x2="220" y2="105" stroke="#5da8d4" stroke-width="3"/>
+  <text x="1200" y="60" text-anchor="end" fill="#f59e0b" font-weight="700" font-size="26" letter-spacing="2" dominant-baseline="hanging">#13 — NEWSLETTER</text>
+
+  <!-- メインタイトル -->
+  <text x="80" y="180" font-weight="700" font-size="72" dominant-baseline="hanging">
+    <tspan fill="#f59e0b">リード獲得</tspan><tspan fill="#1f2937">から</tspan>
+  </text>
+  <text x="80" y="278" font-weight="700" font-size="72" dominant-baseline="hanging">
+    <tspan fill="#f59e0b">選別</tspan><tspan fill="#1f2937">まで</tspan>
+  </text>
+  <text x="80" y="376" font-weight="700" font-size="72" dominant-baseline="hanging">
+    <tspan fill="#1f2937">AIで</tspan><tspan fill="#f59e0b">ひとつなぎ</tspan>
+  </text>
+
+  <!-- サブタイトル -->
+  <text x="80" y="498" fill="#3a7ba8" font-weight="600" font-size="24" letter-spacing="1">— 配信SaaSをやめて、社内データと同じ場所に乗せた</text>
+
+  <!-- 右側：リード獲得→育成→選別 同じIDで結ぶ -->
+  <g transform="translate(760, 150)">
+    <text x="240" y="-20" text-anchor="middle" fill="#6b7280" font-size="17" font-weight="600">同じIDで一本に</text>
+
+    <!-- 獲得 -->
+    <rect x="60" y="0" width="360" height="68" rx="12" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+    <g transform="translate(82, 18) scale(1.4)" fill="#5da8d4">
+      <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+    </g>
+    <text x="148" y="26" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="22">リード獲得</text>
+    <text x="148" y="52" dominant-baseline="central" fill="#5da8d4" font-size="14">登録フォーム・名刺</text>
+
+    <!-- 矢印 -->
+    <line x1="240" y1="68" x2="240" y2="98" stroke="#3a7ba8" stroke-width="3"/>
+    <polygon points="240,106 231,92 249,92" fill="#3a7ba8"/>
+
+    <!-- 育成 -->
+    <rect x="60" y="106" width="360" height="68" rx="12" fill="#fef3e2" stroke="#f59e0b" stroke-width="2.5"/>
+    <g transform="translate(82, 124) scale(1.4)" fill="#f59e0b">
+      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+    </g>
+    <text x="148" y="132" dominant-baseline="central" fill="#f59e0b" font-weight="700" font-size="22">育成</text>
+    <text x="148" y="158" dominant-baseline="central" fill="#92400e" font-size="14">メルマガ・開封・クリック</text>
+
+    <!-- 矢印 -->
+    <line x1="240" y1="174" x2="240" y2="204" stroke="#3a7ba8" stroke-width="3"/>
+    <polygon points="240,212 231,198 249,198" fill="#3a7ba8"/>
+
+    <!-- 選別 -->
+    <rect x="60" y="212" width="360" height="76" rx="12" fill="#fff" stroke="#5da8d4" stroke-width="2.5"/>
+    <g transform="translate(82, 232) scale(1.4)" fill="#5da8d4">
+      <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+    </g>
+    <text x="148" y="240" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="22">選別</text>
+    <text x="148" y="266" dominant-baseline="central" fill="#5da8d4" font-size="14">反応の濃さで見極め</text>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="160" y="608" width="960" height="60" rx="30" fill="#fff" stroke="#fde6c1" stroke-width="1.5"/>
+    <circle cx="200" cy="638" r="7" fill="#f59e0b"/>
+    <text x="226" y="638" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="22" letter-spacing="0.5">集める・育てる・見極めるを、同じデータ基盤の上に乗せた</text>
+  </g>
+</svg>

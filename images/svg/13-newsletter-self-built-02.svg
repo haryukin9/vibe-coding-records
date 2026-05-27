@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="配信側だけ差し替えられる構造">
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <text x="80" y="80" fill="#1f2937" font-weight="700" font-size="62" dominant-baseline="hanging">配信側だけ、あとから差し替えられる</text>
+  <line x1="80" y1="172" x2="280" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 自前で持つ部分（土台） -->
+  <rect x="200" y="280" width="1520" height="380" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="200" y="280" width="1520" height="100" rx="24" fill="#5da8d4"/>
+  <rect x="200" y="348" width="1520" height="32" fill="#5da8d4"/>
+  <g transform="translate(599, 301) scale(2.4)" fill="#ffffff">
+    <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm-7 9.18v4L12 20l7-3.82v-4L12 16l-7-3.82z"/>
+  </g>
+  <text x="675" y="330" dominant-baseline="central" fill="#fff" font-weight="700" font-size="46">自前で持つ部分（社内の土台）</text>
+
+  <!-- 登録カード -->
+  <rect x="280" y="430" width="420" height="180" rx="16" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <g transform="translate(416, 478) scale(1.85)" fill="#3a7ba8">
+    <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+  </g>
+  <text x="480" y="500" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="42">登録</text>
+  <text x="490" y="568" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-weight="500" font-size="26">フォームと購読者リスト</text>
+
+  <!-- 履歴カード -->
+  <rect x="750" y="430" width="420" height="180" rx="16" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <g transform="translate(886, 478) scale(1.85)" fill="#3a7ba8">
+    <path d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"/>
+  </g>
+  <text x="950" y="500" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="42">履歴</text>
+  <text x="960" y="568" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-weight="500" font-size="26">同じIDで時系列に保存</text>
+
+  <!-- 分析カード -->
+  <rect x="1220" y="430" width="420" height="180" rx="16" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <g transform="translate(1356, 478) scale(1.85)" fill="#3a7ba8">
+    <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/>
+  </g>
+  <text x="1420" y="500" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="42">分析</text>
+  <text x="1430" y="568" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-weight="500" font-size="26">反応の見える化</text>
+
+  <!-- 配信スロット（土台から上に伸びる） -->
+  <line x1="960" y1="660" x2="960" y2="715" stroke="#3a7ba8" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="946,712 974,712 960,734" fill="#3a7ba8"/>
+
+  <!-- 配信スロット枠（点線） -->
+  <rect x="540" y="745" width="840" height="200" rx="24" fill="#fef3e2" stroke="#f59e0b" stroke-width="4" stroke-dasharray="14 10"/>
+  <text x="960" y="790" text-anchor="middle" fill="#92400e" font-weight="700" font-size="36">配信レイヤ（差し替え可能なスロット）</text>
+
+  <!-- スロット内：候補A -->
+  <rect x="590" y="820" width="320" height="110" rx="16" fill="#fff" stroke="#f59e0b" stroke-width="3"/>
+  <text x="750" y="857" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="700" font-size="34">MailerSend</text>
+  <text x="750" y="900" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="22">いま使用中</text>
+
+  <!-- 切替矢印（双方向：水平） -->
+  <line x1="935" y1="875" x2="995" y2="875" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="930,875 950,865 950,885" fill="#f59e0b"/>
+  <polygon points="1000,875 980,865 980,885" fill="#f59e0b"/>
+
+  <!-- スロット内：候補B -->
+  <rect x="1010" y="820" width="320" height="110" rx="16" fill="#fff" stroke="#f59e0b" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="1170" y="857" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="700" font-size="34">Amazon SES</text>
+  <text x="1170" y="900" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-size="22">審査が通った日に切替</text>
+
+  <!-- フッターキャッチ -->
+  <rect x="160" y="980" width="1600" height="70" rx="35" fill="#fff" stroke="#fde6c1" stroke-width="2"/>
+  <circle cx="220" cy="1015" r="10" fill="#f59e0b"/>
+  <text x="260" y="1015" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="34">購読者から見ると、配信サービスの切り替えは見えない</text>
+</svg>

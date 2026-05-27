@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="メルマガSaaSと社内履歴が分断されていた状態">
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <text x="80" y="80" fill="#1f2937" font-weight="700" font-size="62" dominant-baseline="hanging">メルマガと社内履歴が、つながっていなかった</text>
+  <line x1="80" y1="172" x2="280" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 左：メルマガSaaS -->
+  <rect x="120" y="300" width="760" height="520" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="120" y="300" width="760" height="100" rx="24" fill="#5da8d4"/>
+  <rect x="120" y="368" width="760" height="32" fill="#5da8d4"/>
+  <g transform="translate(310, 322) scale(2.4)" fill="#ffffff">
+    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+  </g>
+  <text x="380" y="350" dominant-baseline="central" fill="#fff" font-weight="700" font-size="46">メルマガSaaS側</text>
+
+  <rect x="180" y="450" width="640" height="90" rx="16" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="500" y="495" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="40">誰が開封したか</text>
+
+  <rect x="180" y="570" width="640" height="90" rx="16" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="500" y="615" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="40">どのリンクをクリックしたか</text>
+
+  <rect x="180" y="690" width="640" height="90" rx="16" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="500" y="735" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-weight="500" font-size="36">SaaSの管理画面の中だけ</text>
+
+  <!-- 右：社内側 -->
+  <rect x="1040" y="300" width="760" height="520" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="1040" y="300" width="760" height="100" rx="24" fill="#5da8d4"/>
+  <rect x="1040" y="368" width="760" height="32" fill="#5da8d4"/>
+  <g transform="translate(1240, 322) scale(2.4)" fill="#ffffff">
+    <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
+  </g>
+  <text x="1310" y="350" dominant-baseline="central" fill="#fff" font-weight="700" font-size="46">社内データ側</text>
+
+  <rect x="1100" y="450" width="640" height="90" rx="16" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="1420" y="495" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="40">いつ商談したか</text>
+
+  <rect x="1100" y="570" width="640" height="90" rx="16" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="1420" y="615" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="40">過去にどんな仕事をしたか</text>
+
+  <rect x="1100" y="690" width="640" height="90" rx="16" fill="#eff6ff" stroke="#5da8d4" stroke-width="2.5"/>
+  <text x="1420" y="735" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-weight="500" font-size="36">スプレッドシート、メール、など</text>
+
+  <!-- 中央の分断線（点線）と切れ目アイコン -->
+  <line x1="960" y1="320" x2="960" y2="450" stroke="#9ca3af" stroke-width="6" stroke-dasharray="14 14"/>
+  <line x1="960" y1="660" x2="960" y2="800" stroke="#9ca3af" stroke-width="6" stroke-dasharray="14 14"/>
+
+  <circle cx="960" cy="555" r="58" fill="#fff" stroke="#f59e0b" stroke-width="4"/>
+  <line x1="930" y1="525" x2="990" y2="585" stroke="#f59e0b" stroke-width="7" stroke-linecap="round"/>
+  <line x1="990" y1="525" x2="930" y2="585" stroke="#f59e0b" stroke-width="7" stroke-linecap="round"/>
+  <text x="960" y="660" text-anchor="middle" fill="#f59e0b" font-weight="700" font-size="34">突合は手作業</text>
+
+  <!-- フッターキャッチ -->
+  <rect x="160" y="980" width="1600" height="70" rx="35" fill="#fff" stroke="#fde6c1" stroke-width="2"/>
+  <circle cx="220" cy="1015" r="10" fill="#f59e0b"/>
+  <text x="260" y="1015" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="34">配って終わり。誰がどう反応したかが、次の営業活動に届いていない</text>
+</svg>
