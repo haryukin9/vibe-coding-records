@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="質問から出典付きの答えまで、自社の記事の中だけで回答を作る流れ">
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <text x="80" y="80" fill="#1f2937" font-weight="700" font-size="62" dominant-baseline="hanging">質問から、出典付きの答えまで</text>
+  <line x1="80" y1="172" x2="280" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 知識源カード（上段） -->
+  <rect x="610" y="250" width="700" height="150" rx="24" fill="#fef3e2" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="610" y="250" width="700" height="56" rx="24" fill="#f59e0b"/>
+  <rect x="610" y="282" width="700" height="24" fill="#f59e0b"/>
+  <g transform="translate(876, 271) scale(1.4)" fill="#ffffff">
+    <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
+  </g>
+  <text x="925" y="288" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">知識源</text>
+  <text x="960" y="358" text-anchor="middle" dominant-baseline="central" fill="#92400e" font-weight="600" font-size="34">実績・コラム・サービス・料金のページ</text>
+
+  <!-- 知識源 → 検索 への縦矢印 -->
+  <line x1="960" y1="400" x2="960" y2="470" stroke="#f59e0b" stroke-width="6" stroke-dasharray="10 8"/>
+  <polygon points="960,482 949,464 971,464" fill="#f59e0b"/>
+
+  <!-- 3ステップ横並び -->
+  <!-- STEP1 質問 -->
+  <rect x="80" y="540" width="500" height="280" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="80" y="540" width="500" height="80" rx="24" fill="#5da8d4"/>
+  <rect x="80" y="584" width="500" height="36" fill="#5da8d4"/>
+  <g transform="translate(256, 557) scale(1.9)" fill="#ffffff">
+    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+  </g>
+  <text x="316" y="582" dominant-baseline="central" fill="#fff" font-weight="700" font-size="44">質問</text>
+  <text x="330" y="690" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="38">お客様がチャットに</text>
+  <text x="330" y="742" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="38">知りたいことを書く</text>
+
+  <!-- 矢印1→2 -->
+  <line x1="580" y1="680" x2="690" y2="680" stroke="#3a7ba8" stroke-width="6"/>
+  <polygon points="702,680 684,671 684,689" fill="#3a7ba8"/>
+
+  <!-- STEP2 検索 -->
+  <rect x="710" y="540" width="500" height="280" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="710" y="540" width="500" height="80" rx="24" fill="#5da8d4"/>
+  <rect x="710" y="584" width="500" height="36" fill="#5da8d4"/>
+  <g transform="translate(790, 557) scale(1.9)" fill="#ffffff">
+    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+  </g>
+  <text x="850" y="582" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">近い記事を探す</text>
+  <text x="960" y="690" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="38">質問の意味に近い</text>
+  <text x="960" y="742" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="38">記事を何件か引き出す</text>
+
+  <!-- 矢印2→3 -->
+  <line x1="1210" y1="680" x2="1320" y2="680" stroke="#3a7ba8" stroke-width="6"/>
+  <polygon points="1332,680 1314,671 1314,689" fill="#3a7ba8"/>
+
+  <!-- STEP3 回答 -->
+  <rect x="1340" y="540" width="500" height="280" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="1340" y="540" width="500" height="80" rx="24" fill="#5da8d4"/>
+  <rect x="1340" y="584" width="500" height="36" fill="#5da8d4"/>
+  <g transform="translate(1420, 557) scale(1.9)" fill="#ffffff">
+    <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/>
+  </g>
+  <text x="1480" y="582" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">出典付きで回答</text>
+  <text x="1590" y="690" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="38">その範囲だけで答え、</text>
+  <text x="1590" y="742" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="38">根拠の記事リンクを添える</text>
+
+  <!-- フッターキャッチ -->
+  <rect x="160" y="980" width="1600" height="70" rx="35" fill="#fff" stroke="#fde6c1" stroke-width="2"/>
+  <circle cx="220" cy="1015" r="10" fill="#f59e0b"/>
+  <text x="260" y="1015" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="34">一般知識ではなく、自社の記事の中だけを見て答える。だから実態とずれにくい</text>
+</svg>

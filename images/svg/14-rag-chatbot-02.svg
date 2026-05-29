@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="やりとりを記録し、毎朝AIが要約し、穴を見つけて知識源を直す、半自動のブラッシュアップの輪">
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <text x="80" y="80" fill="#1f2937" font-weight="700" font-size="62" dominant-baseline="hanging">使われるほど、答えが良くなる輪</text>
+  <line x1="80" y1="172" x2="280" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 上辺の矢印（左→右） -->
+  <line x1="600" y1="330" x2="1320" y2="330" stroke="#3a7ba8" stroke-width="6"/>
+  <polygon points="1332,330 1314,321 1314,339" fill="#3a7ba8"/>
+  <!-- 右辺の矢印（上→下） -->
+  <line x1="1590" y1="450" x2="1590" y2="690" stroke="#3a7ba8" stroke-width="6"/>
+  <polygon points="1590,702 1581,684 1599,684" fill="#3a7ba8"/>
+  <!-- 下辺の矢印（右→左） -->
+  <line x1="1320" y1="810" x2="600" y2="810" stroke="#3a7ba8" stroke-width="6"/>
+  <polygon points="588,810 606,801 606,819" fill="#3a7ba8"/>
+  <!-- 左辺の矢印（下→上） -->
+  <line x1="330" y1="690" x2="330" y2="450" stroke="#3a7ba8" stroke-width="6"/>
+  <polygon points="330,438 321,456 339,456" fill="#3a7ba8"/>
+
+  <!-- 左上：やりとりを記録 -->
+  <rect x="80" y="290" width="500" height="160" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="80" y="290" width="500" height="64" rx="24" fill="#5da8d4"/>
+  <rect x="80" y="326" width="500" height="28" fill="#5da8d4"/>
+  <text x="330" y="322" text-anchor="middle" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">① やりとりを記録</text>
+  <text x="330" y="402" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="500" font-size="34">質問と回答をすべて残す</text>
+
+  <!-- 右上：毎朝AIが要約 -->
+  <rect x="1340" y="290" width="500" height="160" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="1340" y="290" width="500" height="64" rx="24" fill="#5da8d4"/>
+  <rect x="1340" y="326" width="500" height="28" fill="#5da8d4"/>
+  <text x="1590" y="322" text-anchor="middle" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">② 毎朝AIがメール</text>
+  <text x="1590" y="402" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="500" font-size="34">前日の内容を要約し届ける</text>
+
+  <!-- 右下：穴を見つける -->
+  <rect x="1340" y="700" width="500" height="160" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="1340" y="700" width="500" height="64" rx="24" fill="#5da8d4"/>
+  <rect x="1340" y="736" width="500" height="28" fill="#5da8d4"/>
+  <text x="1590" y="732" text-anchor="middle" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">③ 知識の穴を見つける</text>
+  <text x="1590" y="812" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="500" font-size="34">答えられない質問・薄い話題</text>
+
+  <!-- 左下：知識源を直す -->
+  <rect x="80" y="700" width="500" height="160" rx="24" fill="#fef3e2" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="80" y="700" width="500" height="64" rx="24" fill="#f59e0b"/>
+  <rect x="80" y="736" width="500" height="28" fill="#f59e0b"/>
+  <text x="330" y="732" text-anchor="middle" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">④ 知識源を直す</text>
+  <text x="330" y="812" text-anchor="middle" dominant-baseline="central" fill="#92400e" font-weight="500" font-size="34">記事を足す・入れ替える</text>
+
+  <!-- 中央キャプション -->
+  <text x="960" y="560" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="46">半自動で回す</text>
+  <text x="960" y="620" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-weight="500" font-size="32">人が毎日見張らなくていい</text>
+
+  <!-- フッターキャッチ -->
+  <rect x="160" y="980" width="1600" height="70" rx="35" fill="#fff" stroke="#fde6c1" stroke-width="2"/>
+  <circle cx="220" cy="1015" r="10" fill="#f59e0b"/>
+  <text x="260" y="1015" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="34">置いて終わりにしない。使われるほど穴が見え、直すほど答えが良くなる</text>
+</svg>

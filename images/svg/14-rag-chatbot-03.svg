@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="会話から記事クリック、問い合わせ・電話までを同じIDで地続きに記録する自前計測">
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+
+  <text x="80" y="80" fill="#1f2937" font-weight="700" font-size="62" dominant-baseline="hanging">会話から相談まで、同じIDで地続きに</text>
+  <line x1="80" y1="172" x2="280" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 縦軸：同じID -->
+  <rect x="200" y="280" width="100" height="660" rx="20" fill="#fef3e2" stroke="#f59e0b" stroke-width="3"/>
+  <text x="250" y="610" text-anchor="middle" dominant-baseline="central" fill="#92400e" font-weight="700" font-size="32" transform="rotate(-90 250 610)">同じIDで一本に</text>
+
+  <!-- 上：会話 -->
+  <rect x="380" y="280" width="1440" height="180" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="380" y="280" width="380" height="180" rx="24" fill="#5da8d4"/>
+  <rect x="728" y="280" width="32" height="180" fill="#5da8d4"/>
+  <g transform="translate(487, 334) scale(3.0)" fill="#ffffff">
+    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+  </g>
+  <text x="574" y="370" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">会話</text>
+  <text x="1280" y="345" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="700" font-size="38">チャットで質問する</text>
+  <text x="1280" y="408" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-weight="500" font-size="30">どんなことを聞いたかを記録</text>
+
+  <!-- 縦の連結線 -->
+  <line x1="1280" y1="460" x2="1280" y2="520" stroke="#f59e0b" stroke-width="6" stroke-dasharray="10 8"/>
+
+  <!-- 中：記事クリック -->
+  <rect x="380" y="520" width="1440" height="180" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="380" y="520" width="380" height="180" rx="24" fill="#5da8d4"/>
+  <rect x="728" y="520" width="32" height="180" fill="#5da8d4"/>
+  <g transform="translate(447, 574) scale(3.0)" fill="#ffffff">
+    <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
+  </g>
+  <text x="534" y="610" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">クリック</text>
+  <text x="1280" y="585" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="700" font-size="38">出典リンクから記事を開く</text>
+  <text x="1280" y="648" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-weight="500" font-size="30">どの記事に進んだかを記録</text>
+
+  <!-- 縦の連結線 -->
+  <line x1="1280" y1="700" x2="1280" y2="760" stroke="#f59e0b" stroke-width="6" stroke-dasharray="10 8"/>
+
+  <!-- 下：問い合わせ・電話 -->
+  <rect x="380" y="760" width="1440" height="180" rx="24" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="380" y="760" width="380" height="180" rx="24" fill="#5da8d4"/>
+  <rect x="728" y="760" width="32" height="180" fill="#5da8d4"/>
+  <g transform="translate(427, 814) scale(3.0)" fill="#ffffff">
+    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+  </g>
+  <text x="514" y="850" dominant-baseline="central" fill="#fff" font-weight="700" font-size="40">問い合わせ</text>
+  <text x="1280" y="825" text-anchor="middle" dominant-baseline="central" fill="#1f2937" font-weight="700" font-size="38">相談という出口に届く</text>
+  <text x="1280" y="888" text-anchor="middle" dominant-baseline="central" fill="#6b7280" font-weight="500" font-size="30">フォーム・電話への到達を記録</text>
+
+  <!-- フッターキャッチ -->
+  <rect x="160" y="980" width="1600" height="70" rx="35" fill="#fff" stroke="#fde6c1" stroke-width="2"/>
+  <circle cx="220" cy="1015" r="10" fill="#f59e0b"/>
+  <text x="260" y="1015" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="34">にぎわいではなく、相談につながったかで見る。全部自前だからつなげられる</text>
+</svg>
