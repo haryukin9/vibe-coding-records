@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1120" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="AIで作り直した集客と営業の全体像。土台のWebの上に、集める・答える・育てる・決めるの4フェーズを重ね、計測で全体をつなぐ構成">
+  <rect x="0" y="0" width="1920" height="1120" fill="#f8f9fa"/>
+
+  <!-- タイトル -->
+  <text x="80" y="78" font-family="sans-serif" font-size="60" font-weight="bold" fill="#1f2937" dominant-baseline="hanging">AIで作り直した、集客と営業の全体像</text>
+  <line x1="80" y1="170" x2="540" y2="170" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 測る（計測）：カード型 -->
+  <rect x="120" y="230" width="1670" height="124" rx="16" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="120" y="230" width="1670" height="60" rx="16" fill="#5da8d4"/>
+  <rect x="120" y="260" width="1670" height="30" fill="#5da8d4"/>
+  <g transform="translate(776, 242) scale(1.5)" fill="#ffffff">
+    <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/>
+  </g>
+  <text x="822" y="260" font-family="sans-serif" font-size="52" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">測る（計測）</text>
+  <text x="955" y="326" font-family="sans-serif" font-size="40" fill="#374151" text-anchor="middle" dominant-baseline="central">GA・Search Console＋自前計測で、すべての反応をつなぐ</text>
+
+  <!-- カード1 集める -->
+  <rect x="120" y="400" width="380" height="360" rx="20" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="120" y="400" width="380" height="76" rx="20" fill="#5da8d4"/>
+  <rect x="120" y="446" width="380" height="30" fill="#5da8d4"/>
+  <g transform="translate(209, 420) scale(1.5)" fill="#ffffff">
+    <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+  </g>
+  <text x="255" y="438" font-family="sans-serif" font-size="52" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">集める</text>
+  <text x="310" y="576" font-family="sans-serif" font-size="50" fill="#3a7ba8" text-anchor="middle" dominant-baseline="central" font-weight="bold">記事50</text>
+  <text x="310" y="660" font-family="sans-serif" font-size="50" fill="#3a7ba8" text-anchor="middle" dominant-baseline="central" font-weight="bold">動画10本</text>
+
+  <!-- カード2 答える -->
+  <rect x="550" y="400" width="380" height="360" rx="20" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="550" y="400" width="380" height="76" rx="20" fill="#5da8d4"/>
+  <rect x="550" y="446" width="380" height="30" fill="#5da8d4"/>
+  <g transform="translate(639, 420) scale(1.5)" fill="#ffffff">
+    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+  </g>
+  <text x="685" y="438" font-family="sans-serif" font-size="52" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">答える</text>
+  <text x="740" y="576" font-family="sans-serif" font-size="50" fill="#3a7ba8" text-anchor="middle" dominant-baseline="central" font-weight="bold">月数百円</text>
+  <text x="740" y="660" font-family="sans-serif" font-size="50" fill="#3a7ba8" text-anchor="middle" dominant-baseline="central" font-weight="bold">で稼働</text>
+
+  <!-- カード3 育てる -->
+  <rect x="980" y="400" width="380" height="360" rx="20" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="980" y="400" width="380" height="76" rx="20" fill="#5da8d4"/>
+  <rect x="980" y="446" width="380" height="30" fill="#5da8d4"/>
+  <g transform="translate(1069, 420) scale(1.5)" fill="#ffffff">
+    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+  </g>
+  <text x="1115" y="438" font-family="sans-serif" font-size="52" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">育てる</text>
+  <text x="1170" y="576" font-family="sans-serif" font-size="50" fill="#3a7ba8" text-anchor="middle" dominant-baseline="central" font-weight="bold">コスト</text>
+  <text x="1170" y="660" font-family="sans-serif" font-size="50" fill="#3a7ba8" text-anchor="middle" dominant-baseline="central" font-weight="bold">約1/5</text>
+
+  <!-- カード4 決める -->
+  <rect x="1410" y="400" width="380" height="360" rx="20" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="1410" y="400" width="380" height="76" rx="20" fill="#5da8d4"/>
+  <rect x="1410" y="446" width="380" height="30" fill="#5da8d4"/>
+  <g transform="translate(1469, 420) scale(1.5)" fill="#ffffff">
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+  </g>
+  <text x="1515" y="438" font-family="sans-serif" font-size="52" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">決める</text>
+  <text x="1600" y="576" font-family="sans-serif" font-size="50" fill="#3a7ba8" text-anchor="middle" dominant-baseline="central" font-weight="bold">準備</text>
+  <text x="1600" y="660" font-family="sans-serif" font-size="50" fill="#3a7ba8" text-anchor="middle" dominant-baseline="central" font-weight="bold">半日→5分</text>
+
+  <!-- フェーズ間の矢印（水平） -->
+  <polygon points="510,422 548,438 510,454" fill="#3a7ba8"/>
+  <polygon points="940,422 978,438 940,454" fill="#3a7ba8"/>
+  <polygon points="1370,422 1408,438 1370,454" fill="#3a7ba8"/>
+
+  <!-- 土台：Web カード型 -->
+  <rect x="120" y="804" width="1670" height="124" rx="16" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="120" y="804" width="1670" height="60" rx="16" fill="#5da8d4"/>
+  <rect x="120" y="834" width="1670" height="30" fill="#5da8d4"/>
+  <g transform="translate(862, 816) scale(1.5)" fill="#ffffff">
+    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/>
+  </g>
+  <text x="908" y="834" font-family="sans-serif" font-size="52" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">土台</text>
+  <text x="955" y="900" font-family="sans-serif" font-size="40" fill="#374151" text-anchor="middle" dominant-baseline="central">会社のWebを作り直した（外注 約400万円→0円／実績144件を移行）</text>
+
+  <!-- フッターキャッチ -->
+  <rect x="80" y="1000" width="1760" height="72" rx="20" fill="#ffffff" stroke="#fde6c1" stroke-width="3"/>
+  <circle cx="130" cy="1036" r="10" fill="#f59e0b"/>
+  <text x="170" y="1036" font-family="sans-serif" font-size="34" fill="#374151" dominant-baseline="central">土台の上に「集める→答える→育てる→決める」を重ね、ぜんぶを計測でつなぐ。これを3か月でAIと作り直した。</text>
+</svg>

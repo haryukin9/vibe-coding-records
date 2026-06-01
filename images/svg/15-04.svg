@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 810" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="問い合わせAI（RAG）の仕組み。質問を受け、約250本の記事から探し、出典つきで回答する。月の上限額で自動停止する安全装置つき">
+  <rect x="0" y="0" width="1920" height="810" fill="#f8f9fa"/>
+
+  <text x="80" y="64" font-family="sans-serif" font-size="60" font-weight="bold" fill="#1f2937" dominant-baseline="hanging">問い合わせAI（RAG）の仕組み</text>
+  <line x1="80" y1="156" x2="540" y2="156" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- STEP1 質問 -->
+  <rect x="140" y="260" width="480" height="300" rx="20" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="140" y="260" width="480" height="76" rx="20" fill="#5da8d4"/>
+  <rect x="140" y="306" width="480" height="30" fill="#5da8d4"/>
+  <g transform="translate(305, 274) scale(2.0)" fill="#ffffff">
+    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+  </g>
+  <text x="363" y="298" font-family="sans-serif" font-size="46" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">質問</text>
+  <text x="380" y="416" font-family="sans-serif" font-size="40" fill="#374151" text-anchor="middle" dominant-baseline="central">見込み客の</text>
+  <text x="380" y="482" font-family="sans-serif" font-size="40" fill="#374151" text-anchor="middle" dominant-baseline="central">知りたいこと</text>
+
+  <line x1="632" y1="410" x2="688" y2="410" stroke="#3a7ba8" stroke-width="12"/>
+  <polygon points="688,390 714,410 688,430" fill="#3a7ba8"/>
+
+  <!-- STEP2 記事を検索 -->
+  <rect x="720" y="260" width="480" height="300" rx="20" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="720" y="260" width="480" height="76" rx="20" fill="#5da8d4"/>
+  <rect x="720" y="306" width="480" height="30" fill="#5da8d4"/>
+  <g transform="translate(816, 274) scale(2.0)" fill="#ffffff">
+    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+  </g>
+  <text x="874" y="298" font-family="sans-serif" font-size="46" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">記事を検索</text>
+  <text x="960" y="416" font-family="sans-serif" font-size="40" fill="#374151" text-anchor="middle" dominant-baseline="central">約250本から</text>
+  <text x="960" y="482" font-family="sans-serif" font-size="40" fill="#374151" text-anchor="middle" dominant-baseline="central">近いものを探す</text>
+
+  <line x1="1212" y1="410" x2="1268" y2="410" stroke="#3a7ba8" stroke-width="12"/>
+  <polygon points="1268,390 1294,410 1268,430" fill="#3a7ba8"/>
+
+  <!-- STEP3 出典つき回答 -->
+  <rect x="1300" y="260" width="480" height="300" rx="20" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="1300" y="260" width="480" height="76" rx="20" fill="#5da8d4"/>
+  <rect x="1300" y="306" width="480" height="30" fill="#5da8d4"/>
+  <g transform="translate(1373, 274) scale(2.0)" fill="#ffffff">
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+  </g>
+  <text x="1431" y="298" font-family="sans-serif" font-size="46" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">出典つき回答</text>
+  <text x="1540" y="416" font-family="sans-serif" font-size="40" fill="#374151" text-anchor="middle" dominant-baseline="central">根拠の記事リンク</text>
+  <text x="1540" y="482" font-family="sans-serif" font-size="40" fill="#374151" text-anchor="middle" dominant-baseline="central">つきで答える</text>
+
+  <!-- 安全装置：カード型 -->
+  <rect x="120" y="630" width="1680" height="140" rx="20" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="120" y="630" width="1680" height="64" rx="20" fill="#5da8d4"/>
+  <rect x="120" y="660" width="1680" height="34" fill="#5da8d4"/>
+  <g transform="translate(839, 638) scale(2.0)" fill="#ffffff">
+    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+  </g>
+  <text x="897" y="662" font-family="sans-serif" font-size="46" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">安全装置</text>
+  <text x="960" y="734" font-family="sans-serif" font-size="40" fill="#374151" text-anchor="middle" dominant-baseline="central">月の上限額を決めて自動で止める（月コスト数百円で運用）</text>
+</svg>

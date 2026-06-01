@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 820" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="サイトの閲覧・メルマガ・問い合わせAI・営業資料の反応を、GAとSearch Console＋自前計測でひとつのデータにつなぐ図">
+  <rect x="0" y="0" width="1920" height="820" fill="#f8f9fa"/>
+
+  <text x="80" y="64" font-family="sans-serif" font-size="60" font-weight="bold" fill="#1f2937" dominant-baseline="hanging">すべての反応を、ひとつのデータにつなぐ</text>
+  <line x1="80" y1="156" x2="540" y2="156" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 上段4つの反応カード -->
+  <!-- 閲覧・検索 -->
+  <rect x="180" y="250" width="360" height="190" rx="16" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="180" y="250" width="360" height="64" rx="16" fill="#5da8d4"/>
+  <rect x="180" y="282" width="360" height="32" fill="#5da8d4"/>
+  <g transform="translate(240, 266) scale(1.35)" fill="#ffffff">
+    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/>
+  </g>
+  <text x="280" y="282" font-family="sans-serif" font-size="40" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">閲覧・検索</text>
+  <text x="360" y="380" font-family="sans-serif" font-size="34" fill="#374151" text-anchor="middle" dominant-baseline="central">アクセス・検索語</text>
+
+  <!-- メルマガ -->
+  <rect x="580" y="250" width="360" height="190" rx="16" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="580" y="250" width="360" height="64" rx="16" fill="#5da8d4"/>
+  <rect x="580" y="282" width="360" height="32" fill="#5da8d4"/>
+  <g transform="translate(660, 268) scale(1.35)" fill="#ffffff">
+    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+  </g>
+  <text x="700" y="282" font-family="sans-serif" font-size="40" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">メルマガ</text>
+  <text x="760" y="380" font-family="sans-serif" font-size="34" fill="#374151" text-anchor="middle" dominant-baseline="central">開封・クリック</text>
+
+  <!-- 問い合わせAI -->
+  <rect x="980" y="250" width="360" height="190" rx="16" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="980" y="250" width="360" height="64" rx="16" fill="#5da8d4"/>
+  <rect x="980" y="282" width="360" height="32" fill="#5da8d4"/>
+  <g transform="translate(1016, 268) scale(1.35)" fill="#ffffff">
+    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+  </g>
+  <text x="1056" y="282" font-family="sans-serif" font-size="40" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">問い合わせAI</text>
+  <text x="1160" y="380" font-family="sans-serif" font-size="34" fill="#374151" text-anchor="middle" dominant-baseline="central">会話の内容</text>
+
+  <!-- 営業資料 -->
+  <rect x="1380" y="250" width="360" height="190" rx="16" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="1380" y="250" width="360" height="64" rx="16" fill="#5da8d4"/>
+  <rect x="1380" y="282" width="360" height="32" fill="#5da8d4"/>
+  <g transform="translate(1460, 266) scale(1.35)" fill="#ffffff">
+    <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+  </g>
+  <text x="1500" y="282" font-family="sans-serif" font-size="40" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">営業資料</text>
+  <text x="1560" y="380" font-family="sans-serif" font-size="34" fill="#374151" text-anchor="middle" dominant-baseline="central">リンクのクリック</text>
+
+  <!-- 縦コネクタ -->
+  <line x1="360" y1="440" x2="360" y2="540" stroke="#5da8d4" stroke-width="4"/>
+  <line x1="760" y1="440" x2="760" y2="540" stroke="#5da8d4" stroke-width="4"/>
+  <line x1="1160" y1="440" x2="1160" y2="540" stroke="#5da8d4" stroke-width="4"/>
+  <line x1="1560" y1="440" x2="1560" y2="540" stroke="#5da8d4" stroke-width="4"/>
+
+  <!-- データ基盤バー（上の4つと同じ幅・文字センタリング） -->
+  <rect x="180" y="540" width="1560" height="120" rx="16" fill="#ffffff" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="180" y="540" width="1560" height="60" rx="16" fill="#5da8d4"/>
+  <rect x="180" y="570" width="1560" height="30" fill="#5da8d4"/>
+  <g transform="translate(840, 554) scale(1.35)" fill="#ffffff">
+    <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/>
+  </g>
+  <text x="880" y="570" font-family="sans-serif" font-size="40" fill="#ffffff" text-anchor="start" dominant-baseline="central" font-weight="bold">データ基盤</text>
+  <text x="960" y="632" font-family="sans-serif" font-size="34" fill="#374151" text-anchor="middle" dominant-baseline="central">GA・Search Console ＋ 自前計測でつなぐ</text>
+
+  <!-- フッターキャッチ -->
+  <rect x="80" y="710" width="1760" height="72" rx="20" fill="#ffffff" stroke="#fde6c1" stroke-width="3"/>
+  <circle cx="130" cy="746" r="10" fill="#f59e0b"/>
+  <text x="170" y="746" font-family="sans-serif" font-size="34" fill="#374151" dominant-baseline="central">既製ツールの数字を鵜呑みにせず、自前でも数える。GA4で取れない動きを補う。</text>
+</svg>

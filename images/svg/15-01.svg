@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="2026年1月から5月の、記事と動画の制作本数の積み上げと、ツールの累積リリース数の推移">
+  <rect x="0" y="0" width="1920" height="1080" fill="#f8f9fa"/>
+
+  <!-- タイトル -->
+  <text x="80" y="80" font-family="sans-serif" font-size="60" font-weight="bold" fill="#1f2937" dominant-baseline="hanging">記事・動画は量、ツールは土台</text>
+  <line x1="80" y1="172" x2="520" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- 凡例 -->
+  <rect x="1250" y="72" width="32" height="32" fill="#dbeafe" stroke="#5da8d4" stroke-width="3"/>
+  <text x="1292" y="88" font-family="sans-serif" font-size="36" fill="#374151" dominant-baseline="central">記事</text>
+  <rect x="1400" y="72" width="32" height="32" fill="#5da8d4" stroke="#3a7ba8" stroke-width="3"/>
+  <text x="1442" y="88" font-family="sans-serif" font-size="36" fill="#374151" dominant-baseline="central">動画</text>
+  <line x1="1250" y1="134" x2="1305" y2="134" stroke="#f59e0b" stroke-width="9"/>
+  <circle cx="1278" cy="134" r="11" fill="#f59e0b"/>
+  <text x="1320" y="134" font-family="sans-serif" font-size="36" fill="#374151" dominant-baseline="central">ツール累計</text>
+
+  <!-- フェーズ帯 -->
+  <rect x="280" y="240" width="864" height="620" fill="#f3f4f6"/>
+  <rect x="1144" y="240" width="576" height="620" fill="#eff6ff"/>
+  <text x="712" y="282" font-family="sans-serif" font-size="40" fill="#9ca3af" text-anchor="middle">仕込み・探索期</text>
+  <text x="1432" y="282" font-family="sans-serif" font-size="40" fill="#3a7ba8" text-anchor="middle" font-weight="bold">加速期</text>
+
+  <!-- 横グリッド（0/10/20/30/40 共通目盛り） -->
+  <line x1="280" y1="860" x2="1720" y2="860" stroke="#d1d5db" stroke-width="2"/>
+  <line x1="280" y1="705" x2="1720" y2="705" stroke="#e5e7eb" stroke-width="2"/>
+  <line x1="280" y1="550" x2="1720" y2="550" stroke="#e5e7eb" stroke-width="2"/>
+  <line x1="280" y1="395" x2="1720" y2="395" stroke="#e5e7eb" stroke-width="2"/>
+  <line x1="280" y1="240" x2="1720" y2="240" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- 軸ラベル -->
+  <text x="250" y="860" font-family="sans-serif" font-size="36" fill="#6b7280" text-anchor="end" dominant-baseline="central">0</text>
+  <text x="250" y="705" font-family="sans-serif" font-size="36" fill="#6b7280" text-anchor="end" dominant-baseline="central">10</text>
+  <text x="250" y="550" font-family="sans-serif" font-size="36" fill="#6b7280" text-anchor="end" dominant-baseline="central">20</text>
+  <text x="250" y="395" font-family="sans-serif" font-size="36" fill="#6b7280" text-anchor="end" dominant-baseline="central">30</text>
+  <text x="250" y="240" font-family="sans-serif" font-size="36" fill="#6b7280" text-anchor="end" dominant-baseline="central">40</text>
+
+  <!-- 積み上げ棒：記事（淡い青）＋動画（濃い青） -->
+  <rect x="364" y="813.5" width="120" height="46.5" fill="#dbeafe" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="940" y="813.5" width="120" height="46.5" fill="#dbeafe" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="1228" y="519" width="120" height="341" fill="#dbeafe" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="1228" y="503.5" width="120" height="15.5" fill="#5da8d4" stroke="#3a7ba8" stroke-width="3"/>
+  <rect x="1516" y="457" width="120" height="403" fill="#dbeafe" stroke="#5da8d4" stroke-width="3"/>
+  <rect x="1516" y="333" width="120" height="124" fill="#5da8d4" stroke="#3a7ba8" stroke-width="3"/>
+
+  <!-- 合計（棒の上） -->
+  <text x="424" y="788" font-family="sans-serif" font-size="44" fill="#3a7ba8" text-anchor="middle" font-weight="bold">3</text>
+  <text x="712" y="832" font-family="sans-serif" font-size="44" fill="#9ca3af" text-anchor="middle">0</text>
+  <text x="1000" y="788" font-family="sans-serif" font-size="44" fill="#3a7ba8" text-anchor="middle" font-weight="bold">3</text>
+  <text x="1288" y="478" font-family="sans-serif" font-size="44" fill="#3a7ba8" text-anchor="middle" font-weight="bold">23</text>
+  <text x="1576" y="308" font-family="sans-serif" font-size="44" fill="#3a7ba8" text-anchor="middle" font-weight="bold">34</text>
+
+  <!-- 内訳（記事＝濃青文字／動画＝白文字） -->
+  <text x="1288" y="700" font-family="sans-serif" font-size="40" fill="#3a7ba8" text-anchor="middle">22</text>
+  <text x="1576" y="585" font-family="sans-serif" font-size="40" fill="#3a7ba8" text-anchor="middle">26</text>
+  <text x="1576" y="397" font-family="sans-serif" font-size="40" fill="#ffffff" text-anchor="middle" font-weight="bold">8</text>
+
+  <!-- ツール累積の線 -->
+  <polyline points="424,829 712,813.5 1000,798 1288,736 1576,643" fill="none" stroke="#f59e0b" stroke-width="9"/>
+  <circle cx="424" cy="829" r="13" fill="#f59e0b"/>
+  <circle cx="712" cy="813.5" r="13" fill="#f59e0b"/>
+  <circle cx="1000" cy="798" r="13" fill="#f59e0b"/>
+  <circle cx="1288" cy="736" r="13" fill="#f59e0b"/>
+  <circle cx="1576" cy="643" r="13" fill="#f59e0b"/>
+  <text x="1660" y="643" font-family="sans-serif" font-size="42" fill="#f59e0b" text-anchor="start" dominant-baseline="central" font-weight="bold">14ツール</text>
+
+  <!-- 月ラベル -->
+  <text x="424" y="900" font-family="sans-serif" font-size="46" fill="#374151" text-anchor="middle" dominant-baseline="hanging">1月</text>
+  <text x="712" y="900" font-family="sans-serif" font-size="46" fill="#374151" text-anchor="middle" dominant-baseline="hanging">2月</text>
+  <text x="1000" y="900" font-family="sans-serif" font-size="46" fill="#374151" text-anchor="middle" dominant-baseline="hanging">3月</text>
+  <text x="1288" y="900" font-family="sans-serif" font-size="46" fill="#374151" text-anchor="middle" dominant-baseline="hanging">4月</text>
+  <text x="1576" y="900" font-family="sans-serif" font-size="46" fill="#374151" text-anchor="middle" dominant-baseline="hanging">5月</text>
+
+  <!-- フッターキャッチ -->
+  <rect x="80" y="970" width="1760" height="72" rx="20" fill="#ffffff" stroke="#fde6c1" stroke-width="3"/>
+  <circle cx="130" cy="1006" r="10" fill="#f59e0b"/>
+  <text x="170" y="1006" font-family="sans-serif" font-size="34" fill="#374151" dominant-baseline="central">3〜4か月で「AIを使える」実感に届いた。量はここで頭打ち。次はPDCAの速さを質に変える局面に入る。</text>
+</svg>
