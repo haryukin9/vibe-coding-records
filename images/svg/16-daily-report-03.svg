@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="毎朝たまっていく日次の日報。日付ごとに、成果物・従量課金換算のコスト・実働時間が並ぶ一覧表">
+  <rect x="0" y="0" width="1920" height="1080" fill="#f8f9fa"/>
+
+  <!-- タイトル -->
+  <text x="80" y="80" font-family="sans-serif" font-size="60" font-weight="bold" fill="#1f2937" dominant-baseline="hanging">これが、毎朝たまっていく日報</text>
+  <line x1="80" y1="172" x2="520" y2="172" stroke="#f59e0b" stroke-width="5"/>
+
+  <!-- テーブル外枠 -->
+  <rect x="80" y="280" width="1760" height="660" rx="20" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+
+  <!-- ヘッダー帯 -->
+  <rect x="80" y="280" width="1760" height="100" rx="20" fill="#5da8d4"/>
+  <rect x="80" y="330" width="1760" height="50" fill="#5da8d4"/>
+  <text x="220" y="332" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="sans-serif" font-size="38" font-weight="bold">日付</text>
+  <text x="410" y="332" dominant-baseline="central" fill="#fff" font-family="sans-serif" font-size="38" font-weight="bold">成果物</text>
+  <text x="1345" y="318" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="sans-serif" font-size="36" font-weight="bold">AI利用料</text>
+  <text x="1345" y="356" text-anchor="middle" dominant-baseline="central" fill="#eff6ff" font-family="sans-serif" font-size="24">（従量課金換算）</text>
+  <text x="1675" y="332" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="sans-serif" font-size="38" font-weight="bold">実働</text>
+
+  <!-- 行の縞 -->
+  <rect x="80" y="492" width="1760" height="112" fill="#eff6ff"/>
+  <rect x="80" y="716" width="1760" height="112" fill="#eff6ff"/>
+
+  <!-- 列区切り -->
+  <line x1="360" y1="380" x2="360" y2="940" stroke="#e5e7eb" stroke-width="2"/>
+  <line x1="1180" y1="380" x2="1180" y2="940" stroke="#e5e7eb" stroke-width="2"/>
+  <line x1="1510" y1="380" x2="1510" y2="940" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- 行1 -->
+  <text x="220" y="436" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">5/27</text>
+  <text x="410" y="436" dominant-baseline="central" fill="#1f2937" font-family="sans-serif" font-size="36">記事2本・図解5枚</text>
+  <text x="1345" y="436" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">約6,800円</text>
+  <text x="1675" y="436" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">5.2h</text>
+
+  <!-- 行2 -->
+  <text x="220" y="548" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">5/28</text>
+  <text x="410" y="548" dominant-baseline="central" fill="#1f2937" font-family="sans-serif" font-size="36">解説動画1本</text>
+  <text x="1345" y="548" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">約10,400円</text>
+  <text x="1675" y="548" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">4.3h</text>
+
+  <!-- 行3 -->
+  <text x="220" y="660" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">5/29</text>
+  <text x="410" y="660" dominant-baseline="central" fill="#1f2937" font-family="sans-serif" font-size="36">メルマガ1本・記事1本</text>
+  <text x="1345" y="660" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">約4,900円</text>
+  <text x="1675" y="660" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">3.1h</text>
+
+  <!-- 行4 -->
+  <text x="220" y="772" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">5/30</text>
+  <text x="410" y="772" dominant-baseline="central" fill="#1f2937" font-family="sans-serif" font-size="36">記事リライト2本</text>
+  <text x="1345" y="772" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">約7,600円</text>
+  <text x="1675" y="772" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">4.8h</text>
+
+  <!-- 行5 -->
+  <text x="220" y="884" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">5/31</text>
+  <text x="410" y="884" dominant-baseline="central" fill="#1f2937" font-family="sans-serif" font-size="36">図解6枚・ツール改修</text>
+  <text x="1345" y="884" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">約4,300円</text>
+  <text x="1675" y="884" text-anchor="middle" dominant-baseline="central" fill="#374151" font-family="sans-serif" font-size="36">3.5h</text>
+
+  <!-- フッターキャッチ -->
+  <rect x="80" y="970" width="1760" height="72" rx="20" fill="#ffffff" stroke="#fde6c1" stroke-width="3"/>
+  <circle cx="130" cy="1006" r="10" fill="#f59e0b"/>
+  <text x="170" y="1006" font-family="sans-serif" font-size="34" fill="#374151" dominant-baseline="central">成果物・AI利用料・時間が1日ごとに並ぶ。これを束ねると、週ごとの推移まで見えてくる。</text>
+</svg>

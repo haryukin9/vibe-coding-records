@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="AIに日報を書かせたら、自分の日報だった話">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- 上部 -->
+  <text x="80" y="60" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="3" dominant-baseline="hanging">中小企業のひとりDX担当が、AIで会社をアップデートする</text>
+  <line x1="80" y1="105" x2="220" y2="105" stroke="#5da8d4" stroke-width="3"/>
+  <text x="1200" y="60" text-anchor="end" fill="#f59e0b" font-weight="700" font-size="26" letter-spacing="2" dominant-baseline="hanging">#16 — REPORT</text>
+
+  <!-- メインタイトル -->
+  <text x="80" y="180" font-weight="700" font-size="72" dominant-baseline="hanging">
+    <tspan fill="#1f2937">AIに日報を</tspan>
+  </text>
+  <text x="80" y="278" font-weight="700" font-size="72" dominant-baseline="hanging">
+    <tspan fill="#1f2937">書かせたら、</tspan>
+  </text>
+  <text x="80" y="376" font-weight="700" font-size="72" dominant-baseline="hanging">
+    <tspan fill="#f59e0b">自分</tspan><tspan fill="#1f2937">の日報だった</tspan>
+  </text>
+
+  <!-- サブタイトル -->
+  <text x="80" y="498" fill="#3a7ba8" font-weight="600" font-size="24" letter-spacing="1">— 1か月前までさかのぼれるから、今すぐやれ</text>
+
+  <!-- 右側：AIの日報 ＝ 自分の日報 -->
+  <g transform="translate(820, 168)">
+    <!-- AIの日報カード -->
+    <rect x="40" y="0" width="320" height="96" rx="16" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+    <text x="200" y="48" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="38">AIの日報</text>
+
+    <!-- 縦のイコール（結び） -->
+    <line x1="186" y1="116" x2="186" y2="176" stroke="#f59e0b" stroke-width="11" stroke-linecap="round"/>
+    <line x1="214" y1="116" x2="214" y2="176" stroke="#f59e0b" stroke-width="11" stroke-linecap="round"/>
+
+    <!-- 自分の日報カード -->
+    <rect x="40" y="196" width="320" height="96" rx="16" fill="#fef3e2" stroke="#f59e0b" stroke-width="3"/>
+    <text x="200" y="244" text-anchor="middle" dominant-baseline="central" fill="#92400e" font-weight="700" font-size="38">自分の日報</text>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="160" y="608" width="960" height="60" rx="30" fill="#fff" stroke="#fde6c1" stroke-width="1.5"/>
+    <circle cx="200" cy="638" r="7" fill="#f59e0b"/>
+    <text x="226" y="638" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="22" letter-spacing="0.5">過去1か月の自分が、何も準備していなくても今すぐ出てくる</text>
+  </g>
+</svg>
