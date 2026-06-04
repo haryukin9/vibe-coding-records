@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 670" width="100%" preserveAspectRatio="xMidYMid meet">
+  <rect width="1280" height="670" fill="#f8f9fa"/>
+
+  <!-- 上部 -->
+  <text x="80" y="60" fill="#5da8d4" font-weight="600" font-size="18" letter-spacing="3" dominant-baseline="hanging">中小企業のひとりDX担当が、AIで会社をアップデートする</text>
+  <line x1="80" y1="98" x2="200" y2="98" stroke="#5da8d4" stroke-width="3"/>
+  <text x="1200" y="60" text-anchor="end" fill="#f59e0b" font-weight="700" font-size="22" letter-spacing="2" dominant-baseline="hanging">#18 — FLYER</text>
+
+  <!-- メインタイトル -->
+  <text x="80" y="170" font-weight="700" font-size="46" dominant-baseline="hanging">
+    <tspan fill="#1f2937">AIで作ったチラシを</tspan>
+  </text>
+  <text x="80" y="232" font-weight="700" font-size="46" dominant-baseline="hanging">
+    <tspan fill="#1f2937">デザイナーに頼まず</tspan>
+  </text>
+  <text x="80" y="294" font-weight="700" font-size="46" dominant-baseline="hanging">
+    <tspan fill="#f59e0b">縁なし</tspan><tspan fill="#1f2937">で印刷した話</tspan>
+  </text>
+
+  <!-- サブタイトル -->
+  <text x="80" y="380" fill="#3a7ba8" font-weight="600" font-size="20" letter-spacing="1">— 上下の余白の作り方を、引き算から足し算に</text>
+
+  <!-- 右側：裁ち落とし破線の内側に要素を集める -->
+  <g transform="translate(910, 150)">
+    <text x="180" y="-18" text-anchor="middle" fill="#6b7280" font-size="14" font-weight="600">破線＝裁ち落とし。内側に要素を集める</text>
+
+    <!-- 用紙（背景は端まで） -->
+    <rect x="60" y="0" width="240" height="360" rx="12" fill="#eaf4fb" stroke="#5da8d4" stroke-width="2.5"/>
+    <!-- 背景の絵柄（端のほうに散らす） -->
+    <circle cx="92" cy="22" r="5" fill="#cfe6f5"/>
+    <circle cx="150" cy="16" r="4" fill="#f7dcae"/>
+    <circle cx="270" cy="24" r="5" fill="#cfe6f5"/>
+    <circle cx="96" cy="340" r="5" fill="#cfe6f5"/>
+    <circle cx="200" cy="346" r="4" fill="#f7dcae"/>
+    <circle cx="268" cy="338" r="5" fill="#cfe6f5"/>
+
+    <!-- 裁ち落とし破線（仕上がり線） -->
+    <rect x="80" y="28" width="200" height="304" rx="6" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="8 6"/>
+
+    <!-- 内側に要素をきれいに配置 -->
+    <rect x="100" y="58" width="160" height="22" rx="4" fill="#1f2937"/>
+    <rect x="100" y="90" width="96" height="13" rx="3" fill="#f59e0b"/>
+    <rect x="100" y="124" width="160" height="9" rx="3" fill="#c7ddec"/>
+    <rect x="100" y="142" width="160" height="9" rx="3" fill="#c7ddec"/>
+    <rect x="100" y="160" width="120" height="9" rx="3" fill="#c7ddec"/>
+    <rect x="104" y="250" width="60" height="60" rx="8" fill="#ffffff" stroke="#5da8d4" stroke-width="2"/>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="220" y="568" width="840" height="52" rx="26" fill="#fff" stroke="#fde6c1" stroke-width="1.5"/>
+    <circle cx="252" cy="594" r="6" fill="#f59e0b"/>
+    <text x="274" y="594" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="20" letter-spacing="0.5">「空けて」ではなく「上下にこれを置いて」と頼む</text>
+  </g>
+</svg>

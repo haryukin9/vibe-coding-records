@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" preserveAspectRatio="xMidYMid meet">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- タイトル -->
+  <text x="640" y="56" text-anchor="middle" fill="#1f2937" font-weight="700" font-size="34">AIの出力（2：3）に、A4の仕上がり線を重ねる</text>
+  <line x1="540" y1="86" x2="740" y2="86" stroke="#f59e0b" stroke-width="4"/>
+
+  <!-- 左：AIの出力 2:3（要素は内側に収める） -->
+  <g transform="translate(210, 160)">
+    <text x="130" y="-22" text-anchor="middle" fill="#5da8d4" font-size="20" font-weight="700">AIの出力（2：3）</text>
+    <rect x="0" y="0" width="260" height="390" rx="10" fill="#eaf4fb" stroke="#9ca3af" stroke-width="2"/>
+    <!-- 背景の絵柄 -->
+    <circle cx="34" cy="28" r="6" fill="#cfe6f5"/>
+    <circle cx="226" cy="30" r="6" fill="#f7dcae"/>
+    <circle cx="36" cy="360" r="6" fill="#cfe6f5"/>
+    <circle cx="224" cy="358" r="6" fill="#cfe6f5"/>
+    <!-- 要素（端から離して内側に） -->
+    <rect x="46" y="64" width="168" height="26" rx="4" fill="#1f2937"/>
+    <rect x="46" y="104" width="110" height="14" rx="3" fill="#f59e0b"/>
+    <rect x="46" y="144" width="168" height="10" rx="3" fill="#c7ddec"/>
+    <rect x="46" y="162" width="168" height="10" rx="3" fill="#c7ddec"/>
+    <rect x="46" y="270" width="120" height="56" rx="6" fill="#ffffff" stroke="#5da8d4" stroke-width="1.5"/>
+    <text x="130" y="418" text-anchor="middle" fill="#6b7280" font-size="15">A4より少し縦長</text>
+  </g>
+
+  <!-- 中央矢印 -->
+  <g transform="translate(540, 350)">
+    <line x1="0" y1="0" x2="120" y2="0" stroke="#f59e0b" stroke-width="5"/>
+    <polygon points="120,-12 150,0 120,12" fill="#f59e0b"/>
+    <text x="75" y="-26" text-anchor="middle" fill="#b9842f" font-size="16" font-weight="700">同じ画像に</text>
+    <text x="75" y="34" text-anchor="middle" fill="#b9842f" font-size="16" font-weight="700">A4の線を重ねる</text>
+  </g>
+
+  <!-- 右：同じ画像にA4仕上がり線（破線）を重ねる -->
+  <g transform="translate(790, 160)">
+    <text x="130" y="-22" text-anchor="middle" fill="#5da8d4" font-size="20" font-weight="700">A4でフチどり</text>
+    <!-- 同じAI出力画像 -->
+    <rect x="0" y="0" width="260" height="390" rx="10" fill="#eaf4fb" stroke="#9ca3af" stroke-width="2"/>
+    <circle cx="34" cy="28" r="6" fill="#cfe6f5"/>
+    <circle cx="226" cy="30" r="6" fill="#f7dcae"/>
+    <circle cx="36" cy="360" r="6" fill="#cfe6f5"/>
+    <circle cx="224" cy="358" r="6" fill="#cfe6f5"/>
+    <rect x="46" y="64" width="168" height="26" rx="4" fill="#1f2937"/>
+    <rect x="46" y="104" width="110" height="14" rx="3" fill="#f59e0b"/>
+    <rect x="46" y="144" width="168" height="10" rx="3" fill="#c7ddec"/>
+    <rect x="46" y="162" width="168" height="10" rx="3" fill="#c7ddec"/>
+    <rect x="46" y="270" width="120" height="56" rx="6" fill="#ffffff" stroke="#5da8d4" stroke-width="1.5"/>
+
+    <!-- 裁ち落とし帯（破線の外側）を薄く塗る -->
+    <rect x="0" y="0" width="260" height="44" fill="#fbe9cf" opacity="0.55"/>
+    <rect x="0" y="346" width="260" height="44" fill="#fbe9cf" opacity="0.55"/>
+
+    <!-- A4仕上がり線（オレンジ破線） -->
+    <rect x="12" y="44" width="236" height="302" rx="6" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="9 6"/>
+
+    <!-- 注記 -->
+    <text x="130" y="26" text-anchor="middle" fill="#b9842f" font-size="13" font-weight="700">裁ち落とし（切られる）</text>
+    <text x="130" y="372" text-anchor="middle" fill="#b9842f" font-size="13" font-weight="700">裁ち落とし（切られる）</text>
+    <text x="130" y="418" text-anchor="middle" fill="#6b7280" font-size="15">破線の内側＝A4仕上がり</text>
+  </g>
+</svg>

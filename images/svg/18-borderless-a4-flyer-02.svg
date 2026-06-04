@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" preserveAspectRatio="xMidYMid meet">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- タイトル -->
+  <text x="640" y="56" text-anchor="middle" fill="#1f2937" font-weight="700" font-size="34">「空けて」と頼むより、「ここに置いて」と頼む</text>
+  <line x1="540" y1="86" x2="740" y2="86" stroke="#f59e0b" stroke-width="4"/>
+
+  <!-- 左：引き算（NG） -->
+  <g transform="translate(150, 150)">
+    <rect x="0" y="0" width="440" height="480" rx="16" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+    <!-- ヘッダ帯 -->
+    <rect x="0" y="0" width="440" height="56" rx="16" fill="#9ca3af"/>
+    <rect x="0" y="30" width="440" height="26" fill="#9ca3af"/>
+    <text x="28" y="36" fill="#ffffff" font-weight="700" font-size="20">引き算：「上下を空けて」</text>
+    <!-- ×印 -->
+    <circle cx="400" cy="28" r="16" fill="#ffffff"/>
+    <line x1="392" y1="20" x2="408" y2="36" stroke="#9ca3af" stroke-width="3" stroke-linecap="round"/>
+    <line x1="408" y1="20" x2="392" y2="36" stroke="#9ca3af" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- 用紙：背景あり・要素が端いっぱいまで詰まる -->
+    <g transform="translate(150, 90)">
+      <rect x="0" y="0" width="140" height="320" rx="6" fill="#eaf4fb" stroke="#9ca3af" stroke-width="2"/>
+      <!-- 端いっぱいまで要素（上端・左右端・下端に接する） -->
+      <rect x="6" y="6" width="128" height="22" rx="3" fill="#1f2937"/>
+      <rect x="6" y="34" width="86" height="12" rx="2" fill="#f59e0b"/>
+      <rect x="6" y="54" width="128" height="9" rx="2" fill="#c7ddec"/>
+      <rect x="6" y="68" width="128" height="9" rx="2" fill="#c7ddec"/>
+      <rect x="6" y="82" width="128" height="9" rx="2" fill="#c7ddec"/>
+      <rect x="6" y="96" width="108" height="9" rx="2" fill="#c7ddec"/>
+      <rect x="6" y="120" width="128" height="194" rx="4" fill="#ffffff" stroke="#5da8d4" stroke-width="1.5"/>
+    </g>
+    <text x="220" y="448" text-anchor="middle" fill="#6b7280" font-size="16">要素が端いっぱいまで詰まり、切ると欠ける</text>
+  </g>
+
+  <!-- 右：足し算（OK） -->
+  <g transform="translate(690, 150)">
+    <rect x="0" y="0" width="440" height="480" rx="16" fill="#ffffff" stroke="#f7dcae" stroke-width="2.5"/>
+    <!-- ヘッダ帯 -->
+    <rect x="0" y="0" width="440" height="56" rx="16" fill="#f59e0b"/>
+    <rect x="0" y="30" width="440" height="26" fill="#f59e0b"/>
+    <text x="28" y="36" fill="#ffffff" font-weight="700" font-size="20">足し算：「上下にこれを置いて」</text>
+    <!-- ○印 -->
+    <circle cx="400" cy="28" r="16" fill="#ffffff"/>
+    <polyline points="390,28 397,36 411,20" fill="none" stroke="#f59e0b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- 用紙：上下に背景の絵柄が端まで、中央に要素 -->
+    <g transform="translate(150, 90)">
+      <rect x="0" y="0" width="140" height="320" rx="6" fill="#eaf4fb" stroke="#5da8d4" stroke-width="2"/>
+      <!-- 上下ゾーンの絵柄 -->
+      <circle cx="28" cy="24" r="6" fill="#cfe6f5"/>
+      <circle cx="64" cy="18" r="5" fill="#f7dcae"/>
+      <circle cx="112" cy="26" r="6" fill="#cfe6f5"/>
+      <circle cx="30" cy="298" r="6" fill="#cfe6f5"/>
+      <circle cx="80" cy="304" r="5" fill="#f7dcae"/>
+      <circle cx="116" cy="296" r="6" fill="#cfe6f5"/>
+      <text x="70" y="32" text-anchor="middle" fill="#3a7ba8" font-size="11" font-weight="700">背景</text>
+      <text x="70" y="296" text-anchor="middle" fill="#3a7ba8" font-size="11" font-weight="700">背景</text>
+      <!-- 裁ち落とし境界 -->
+      <line x1="0" y1="50" x2="140" y2="50" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="5 4"/>
+      <line x1="0" y1="270" x2="140" y2="270" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="5 4"/>
+      <!-- 中央に要素 -->
+      <rect x="16" y="74" width="108" height="18" rx="3" fill="#1f2937"/>
+      <rect x="16" y="98" width="70" height="10" rx="2" fill="#f59e0b"/>
+      <rect x="16" y="118" width="108" height="8" rx="2" fill="#c7ddec"/>
+      <rect x="16" y="132" width="108" height="8" rx="2" fill="#c7ddec"/>
+      <rect x="16" y="180" width="108" height="60" rx="4" fill="#ffffff" stroke="#5da8d4" stroke-width="1.5"/>
+    </g>
+    <text x="220" y="448" text-anchor="middle" fill="#6b7280" font-size="16">背景が端まで続き、要素は内側に収まる</text>
+  </g>
+</svg>
