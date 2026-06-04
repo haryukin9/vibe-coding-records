@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="有料だと思っていたヒートマップ分析を、無料で会社サイトに入れた話">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- 上部 -->
+  <text x="80" y="60" fill="#5da8d4" font-weight="600" font-size="22" letter-spacing="3" dominant-baseline="hanging">中小企業のひとりDX担当が、AIで会社をアップデートする</text>
+  <line x1="80" y1="105" x2="220" y2="105" stroke="#5da8d4" stroke-width="3"/>
+  <text x="1200" y="60" text-anchor="end" fill="#f59e0b" font-weight="700" font-size="26" letter-spacing="2" dominant-baseline="hanging">#17 — CLARITY</text>
+
+  <!-- メインタイトル -->
+  <text x="80" y="180" font-weight="700" font-size="72" dominant-baseline="hanging">
+    <tspan fill="#1f2937">有料だと思っていた</tspan>
+  </text>
+  <text x="80" y="278" font-weight="700" font-size="72" dominant-baseline="hanging">
+    <tspan fill="#1f2937">ヒートマップ分析を</tspan>
+  </text>
+  <text x="80" y="376" font-weight="700" font-size="72" dominant-baseline="hanging">
+    <tspan fill="#f59e0b">無料</tspan><tspan fill="#1f2937">でサイトに入れた</tspan>
+  </text>
+
+  <!-- サブタイトル -->
+  <text x="80" y="498" fill="#3a7ba8" font-weight="600" font-size="24" letter-spacing="1">— 外注や月額で買うものだと思い込んでいた</text>
+
+  <!-- 右側：有料 → 無料 -->
+  <g transform="translate(820, 168)">
+    <!-- 有料カード -->
+    <rect x="40" y="0" width="320" height="96" rx="16" fill="#fff" stroke="#5da8d4" stroke-width="3"/>
+    <text x="200" y="48" text-anchor="middle" dominant-baseline="central" fill="#3a7ba8" font-weight="700" font-size="36">外注・月額</text>
+
+    <!-- 下向き矢印（転換） -->
+    <line x1="200" y1="116" x2="200" y2="162" stroke="#f59e0b" stroke-width="11" stroke-linecap="round"/>
+    <polygon points="182,158 218,158 200,184" fill="#f59e0b"/>
+
+    <!-- 無料カード -->
+    <rect x="40" y="196" width="320" height="96" rx="16" fill="#fef3e2" stroke="#f59e0b" stroke-width="3"/>
+    <text x="200" y="244" text-anchor="middle" dominant-baseline="central" fill="#92400e" font-weight="700" font-size="36">無料 ¥0</text>
+  </g>
+
+  <!-- フッターキャッチ -->
+  <g>
+    <rect x="160" y="608" width="960" height="60" rx="30" fill="#fff" stroke="#fde6c1" stroke-width="1.5"/>
+    <circle cx="200" cy="638" r="7" fill="#f59e0b"/>
+    <text x="226" y="638" dominant-baseline="central" fill="#1f2937" font-weight="600" font-size="22" letter-spacing="0.5">外注や月額で買っていた仕組みが、無料で会社に取り込める時代になった</text>
+  </g>
+</svg>
